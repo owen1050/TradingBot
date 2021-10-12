@@ -1,0 +1,329 @@
+1634012326781	geckodriver	INFO	Listening on 127.0.0.1:63625
+1634012329806	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilezoiaHq"
+1634012330164	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilezoiaHq\\search.json.mozlz4", (void 0)))
+1634012332099	Marionette	INFO	Listening on port 64876
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634012332507	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+1634012334401	Marionette	INFO	Stopped listening on port 64876
+console.error: PushServiceWebSocket: 
+  _beginWSSetup: Not in shutdown state! Current state
+  2
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1634012413355	geckodriver	INFO	Listening on 127.0.0.1:52097
+1634012416379	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileXYDHpA"
+*** You are running in headless mode.
+1634012416657	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileXYDHpA\\search.json.mozlz4", (void 0)))
+1634012417497	Marionette	INFO	Listening on port 63641
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634012417929	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://inventwithpython.com/js/bootstrap.min.js, line 7: Error: Bootstrap tooltips require Tether (http://tether.io/)
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+ Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile9tEgmb"
+*** You are running in headless mode.
+1634012535257	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile9tEgmb\\search.json.mozlz4", (void 0)))
+1634012536083	Marionette	INFO	Listening on port 52763
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634012536509	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofiledeZmTM"
+*** You are running in headless mode.
+1634012644813	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofiledeZmTM\\search.json.mozlz4", (void 0)))
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634012645735	Marionette	INFO	Listening on port 53403
+1634012646037	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilecd2HaC"
+*** You are running in headless mode.
+1634012789858	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilecd2HaC\\search.json.mozlz4", (void 0)))
+1634012790729	Marionette	INFO	Listening on port 52321
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634012791117	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileus4l61"
+*** You are running in headless mode.
+1634013220832	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileus4l61\\search.json.mozlz4", (void 0)))
+1634013221739	Marionette	INFO	Listening on port 51854
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634013222108	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileFDL3iM"
+*** You are running in headless mode.
+1634013246176	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileFDL3iM\\search.json.mozlz4", (void 0)))
+1634013247077	Marionette	INFO	Listening on port 62311
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634013247441	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilexMIREw"
+*** You are running in headless mode.
+1634013266001	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilexMIREw\\search.json.mozlz4", (void 0)))
+1634013266902	Marionette	INFO	Listening on port 65326
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634013267256	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile5dcwzt"
+*** You are running in headless mode.
+1634013282174	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile5dcwzt\\search.json.mozlz4", (void 0)))
+1634013283093	Marionette	INFO	Listening on port 61644
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634013283403	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile3E86uO"
+*** You are running in headless mode.
+1634013302941	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile3E86uO\\search.json.mozlz4", (void 0)))
+1634013303880	Marionette	INFO	Listening on port 62772
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634013304171	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileM8LiNt"
+*** You are running in headless mode.
+1634013401666	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileM8LiNt\\search.json.mozlz4", (void 0)))
+1634013402697	Marionette	INFO	Listening on port 63804
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634013402886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilejj9Ugf"
+*** You are running in headless mode.
+1634013420806	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilejj9Ugf\\search.json.mozlz4", (void 0)))
+1634013421800	Marionette	INFO	Listening on port 58754
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634013422047	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileYI9src"
+*** You are running in headless mode.
+1634013438466	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileYI9src\\search.json.mozlz4", (void 0)))
+1634013439456	Marionette	INFO	Listening on port 63071
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634013439714	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileZxecqa"
+*** You are running in headless mode.
+1634013467479	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileZxecqa\\search.json.mozlz4", (void 0)))
+1634013468516	Marionette	INFO	Listening on port 52778
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634013468677	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileO5khLT"
+*** You are running in headless mode.
+1634013535576	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileO5khLT\\search.json.mozlz4", (void 0)))
+1634013536847	Marionette	INFO	Listening on port 65227
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634013537227	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileOK1mD3"
+*** You are running in headless mode.
+1634013603167	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileOK1mD3\\search.json.mozlz4", (void 0)))
+1634013604374	Marionette	INFO	Listening on port 53851
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634013604874	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile5r7W7w"
+*** You are running in headless mode.
+1634013681411	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile5r7W7w\\search.json.mozlz4", (void 0)))
+1634013682440	Marionette	INFO	Listening on port 55833
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634013682608	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileXO4woC"
+*** You are running in headless mode.
+1634013766065	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileXO4woC\\search.json.mozlz4", (void 0)))
+1634013767086	Marionette	INFO	Listening on port 52592
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634013767266	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634013770620	geckodriver	INFO	Listening on 127.0.0.1:52655
+1634013773649	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileqCQ4mD"
+*** You are running in headless mode.
+1634013773983	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileqCQ4mD\\search.json.mozlz4", (void 0)))
+1634013774944	Marionette	INFO	Listening on port 52663
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634013775201	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile11WK52"
+*** You are running in headless mode.
+1634013821460	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile11WK52\\search.json.mozlz4", (void 0)))
+1634013822540	Marionette	INFO	Listening on port 52801
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634013822696	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileCyxCw2"
+*** You are running in headless mode.
+1634013859715	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileCyxCw2\\search.json.mozlz4", (void 0)))
+1634013860749	Marionette	INFO	Listening on port 52910
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634013860899	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofiler2XxGP"
+*** You are running in headless mode.
+1634013885257	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofiler2XxGP\\search.json.mozlz4", (void 0)))
+1634013886413	Marionette	INFO	Listening on port 53010
+1634013886437	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileFZ6OV7"
+*** You are running in headless mode.
+1634014022308	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileFZ6OV7\\search.json.mozlz4", (void 0)))
+1634014023550	Marionette	INFO	Listening on port 63960
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634014023935	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileTlwbDi"
+*** You are running in headless mode.
+1634014050529	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileTlwbDi\\search.json.mozlz4", (void 0)))
+1634014051522	Marionette	INFO	Listening on port 64066
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634014051731	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileWuKffA"
+*** You are running in headless mode.
+1634014073174	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileWuKffA\\search.json.mozlz4", (void 0)))
+1634014074276	Marionette	INFO	Listening on port 64164
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634014074394	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilezkCDWw"
+*** You are running in headless mode.
+1634014123309	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilezkCDWw\\search.json.mozlz4", (void 0)))
+1634014124351	Marionette	INFO	Listening on port 64278
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634014124496	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634014148210	geckodriver	INFO	Listening on 127.0.0.1:64368
+1634014151227	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileFRkq2d"
+*** You are running in headless mode.
+1634014151610	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileFRkq2d\\search.json.mozlz4", (void 0)))
+1634014152674	Marionette	INFO	Listening on port 64376
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634014152796	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634014239174	geckodriver	INFO	Listening on 127.0.0.1:64503
+1634014242182	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileko6fLg"
+*** You are running in headless mode.
+1634014242557	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileko6fLg\\search.json.mozlz4", (void 0)))
+1634014243693	Marionette	INFO	Listening on port 64511
+1634014243736	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634014297099	geckodriver	INFO	Listening on 127.0.0.1:64617
+1634014300139	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileYJAK9L"
+*** You are running in headless mode.
+1634014300493	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileYJAK9L\\search.json.mozlz4", (void 0)))
+1634014301585	Marionette	INFO	Listening on port 64626
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634014301692	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634014405973	geckodriver	INFO	Listening on 127.0.0.1:53412
+1634014408988	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofiletSiCra"
+*** You are running in headless mode.
+1634014409375	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofiletSiCra\\search.json.mozlz4", (void 0)))
+1634014410546	Marionette	INFO	Listening on port 53421
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634014411071	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634014537756	geckodriver	INFO	Listening on 127.0.0.1:51587
+1634014540774	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile9HHspo"
+*** You are running in headless mode.
+1634014541156	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile9HHspo\\search.json.mozlz4", (void 0)))
+1634014542357	Marionette	INFO	Listening on port 51596
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634014542839	RemoteAgent	WARN	TLS certificate errors will be ignored for this session

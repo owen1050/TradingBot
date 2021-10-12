@@ -7,3 +7,5 @@ Todo: interface for google trends, get twitter activity, trading crypto api, scr
 
 Initial research:
 - google trends: https://pypi.org/project/pytrends/
+- twitter - this website is free and scrapeable https://www.hashtags.org/analytics/shib/
+
