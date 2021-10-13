@@ -506,8 +506,10 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
 1634089916303	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachable code after return statement
-1634089929561	geckodriver	INFO	Listening on 127.0.0.1:57270
-1634089932589	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofiledFmUkd"
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofiledFmUkd"
 *** You are running in headless mode.
 1634089933179	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -516,8 +518,10 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
 1634089935272	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachable code after return statement
-1634089981753	geckodriver	INFO	Listening on 127.0.0.1:50857
-1634089984799	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilez6Lc09"
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilez6Lc09"
 *** You are running in headless mode.
 1634089985538	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -526,8 +530,10 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1634089987499	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
 JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachable code after return statement
-1634090024741	geckodriver	INFO	Listening on 127.0.0.1:63336
-1634090027776	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileBlSLfs"
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileBlSLfs"
 *** You are running in headless mode.
 1634090028361	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -537,3 +543,128 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 1634090030458	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachable code after return statement
 1634090034844	geckodriver	INFO	Listening on 127.0.0.1:55398
+1634090037869	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilewGUUQM"
+*** You are running in headless mode.
+1634090038545	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilewGUUQM\\search.json.mozlz4", (void 0)))
+1634090040376	Marionette	INFO	Listening on port 63218
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634090040559	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileUbcZyD"
+*** You are running in headless mode.
+1634090082689	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileUbcZyD\\search.json.mozlz4", (void 0)))
+1634090084476	Marionette	INFO	Listening on port 52818
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634090084764	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileDBKIdp"
+*** You are running in headless mode.
+1634090106231	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileDBKIdp\\search.json.mozlz4", (void 0)))
+1634090108107	Marionette	INFO	Listening on port 56723
+1634090108301	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileRbIGAq"
+*** You are running in headless mode.
+1634090131736	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileRbIGAq\\search.json.mozlz4", (void 0)))
+1634090133604	Marionette	INFO	Listening on port 50559
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634090133846	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileUv1i1f"
+*** You are running in headless mode.
+1634090211655	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileUv1i1f\\search.json.mozlz4", (void 0)))
+1634090213611	Marionette	INFO	Listening on port 49678
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634090213763	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilew637bJ"
+*** You are running in headless mode.
+1634090256951	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilew637bJ\\search.json.mozlz4", (void 0)))
+1634090258988	Marionette	INFO	Listening on port 56522
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634090259494	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilejHXol6"
+*** You are running in headless mode.
+1634090288683	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilejHXol6\\search.json.mozlz4", (void 0)))
+1634090290643	Marionette	INFO	Listening on port 62589
+1634090290750	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofiley2nJO7"
+*** You are running in headless mode.
+1634090333113	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofiley2nJO7\\search.json.mozlz4", (void 0)))
+1634090335081	Marionette	INFO	Listening on port 54019
+1634090335155	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileIgOQWi"
+1634090674915	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileIgOQWi\\search.json.mozlz4", (void 0)))
+1634090678872	Marionette	INFO	Listening on port 55272
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634090679204	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634090865096	Marionette	INFO	Stopped listening on port 55271634090865644	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileM2pzRd"
+*** You are running in headless mode.
+1634090866282	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileM2pzRd\\search.json.mozlz4", (void 0)))
+1634090868037	Marionette	INFO	Listening on port 62207
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634090868341	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634090876312	geckodriver	INFO	Listening on 127.0.0.1:50342
+1634090879349	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileihHiVb"
+1634090879804	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileihHiVb\\search.json.mozlz4", (void 0)))
+1634090882875	Marionette	INFO	Listening on port 49545
+JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeError: / is not a valid URL.
+1634090883040	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachable code after return statement
+JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachable code after return statement
+JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachable code after return statement
+JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachable code after return statement
+console.warn: ({})
+1634091359240	Marionette	INFO	Stopped listening on port 49545
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

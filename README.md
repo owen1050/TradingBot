@@ -8,4 +8,6 @@ Todo: interface for google trends, get twitter activity, trading crypto api, scr
 Initial research:
 - google trends: https://pypi.org/project/pytrends/
 - twitter - this website is free and scrapeable https://www.hashtags.org/analytics/shib/
+- binance api- https://github.com/binance/binance-spot-api-docs/blob/master/rest-api.md#general-api-information
+- python binance : https://python-binance.readthedocs.io/en/latest/ 
 
