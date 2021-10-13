@@ -4,7 +4,7 @@ from pathlib import Path
 import time
 
 print("Loading website...")
-driverPath = str(Path(__file__).parents[1]) + "/geckodriverMac" #no exe on linux and swap the \\ with /
+driverPath = str(Path(__file__).parents[1]) + "\\geckodriver.exe" #no exe on linux and swap the \\ with /
 opts = Options()
 opts.headless = True
 
@@ -16,14 +16,14 @@ driver.get(url)
 
 xButton = driver.find_element_by_xpath("/html/body/div/div[3]/div[2]")
 xButton.click()
-
+print("website loaded")
 time.sleep(0.5)
 
 data = []
 print("Collecting data", end = "")
 for i in range(1,175):
     temp = []
-    driver.execute_script("window.scrollTo(0, "+ str(i * 50)+")")
+    
     nameXpath = "/html/body/div/div[1]/div[2]/div/div[1]/div/div[2]/div[3]/div/table/tbody/tr["+ str(i) +"]/td[2]/div/a[2]"
     sumbXpath = "/html/body/div/div[1]/div[2]/div/div[1]/div/div[2]/div[3]/div/table/tbody/tr["+ str(i) +"]/td[3]/div"
     mkCpXpath = "/html/body/div/div[1]/div[2]/div/div[1]/div/div[2]/div[3]/div/table/tbody/tr["+ str(i) +"]/td[4]/p/span[2]"
@@ -39,6 +39,7 @@ for i in range(1,175):
     data.append(temp)
     if i % 10 == 0:
         print("", end='.')
+        driver.execute_script("window.scrollTo(0, "+ str(i * 75)+")")
 
 for d in data:
     print(d)
