@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 from pathlib import Path
-import time
+import time, datetime
 
 print("Loading website...")
 driverPath = str(Path(__file__).parents[1]) + "/geckodriverMac" #no exe on linux and swap the \\ with /
@@ -9,37 +9,44 @@ opts = Options()
 opts.headless = True
 
 driver = webdriver.Firefox(executable_path=driverPath, options=opts)
-
-url = "https://coinmarketcap.com/currencies/amun-bitcoin-3x-daily-short/historical-data/"
+driver.set_window_size(1920, 1080)
+url = "https://coinmarketcap.com/currencies/bitcoin/historical-data/"
 
 driver.get(url)
 
-xButton = driver.find_element_by_xpath("/html/body/div/div[3]/div[2]")
-xButton.click()
 print("website loaded")
-time.sleep(0.5)
+time.sleep(1)
 
 data = []
-print("Collecting data", end = "")
-for i in range(1,175):
+
+# click this /html/body/div/div/div[1]/div[2]/div/div[3]/div/div/div[1]/span/button
+dateRangeXpath = "/html/body/div/div/div[1]/div[2]/div/div[3]/div/div/div[1]/span/button"
+# clikc this /html/body/div/div/div[1]/div[2]/div/div[3]/div/div/div[1]/div/div/div[1]/div/div/div[1]/div[2]/ul/li[4]
+oneEightyDaysXpath = "/html/body/div/div/div[1]/div[2]/div/div[3]/div/div/div[1]/div/div/div[1]/div/div/div[1]/div[2]/ul/li[5]"
+# click this /html/body/div/div/div[1]/div[2]/div/div[3]/div/div/div[1]/div/div/div[1]/div/div/div[2]/span/button
+contButtonXpath = "/html/body/div/div/div[1]/div[2]/div/div[3]/div/div/div[1]/div/div/div[1]/div/div/div[2]/span/button"
+
+driver.find_element_by_xpath(dateRangeXpath).click()
+driver.find_element_by_xpath(oneEightyDaysXpath).click()
+driver.find_element_by_xpath(contButtonXpath).click()
+now = datetime.datetime.now().timestamp()
+for i in range(1,350):
     temp = []
-    
-    nameXpath = "/html/body/div/div[1]/div[2]/div/div[1]/div/div[2]/div[3]/div/table/tbody/tr["+ str(i) +"]/td[2]/div/a[2]"
-    sumbXpath = "/html/body/div/div[1]/div[2]/div/div[1]/div/div[2]/div[3]/div/table/tbody/tr["+ str(i) +"]/td[3]/div"
-    mkCpXpath = "/html/body/div/div[1]/div[2]/div/div[1]/div/div[2]/div[3]/div/table/tbody/tr["+ str(i) +"]/td[4]/p/span[2]"
-    priceXpat = "/html/body/div/div[1]/div[2]/div/div[1]/div/div[2]/div[3]/div/table/tbody/tr["+ str(i) +"]/td[5]/div/a"
-    volumXpat = "/html/body/div/div[1]/div[2]/div/div[1]/div/div[2]/div[3]/div/table/tbody/tr["+ str(i) +"]/td[7]/a"
-    name = driver.find_element_by_xpath(nameXpath).text
-    symbol = driver.find_element_by_xpath(sumbXpath).text
-    marketCap = driver.find_element_by_xpath(mkCpXpath).text
-    priceUSD = driver.find_element_by_xpath(priceXpat).text
-    volume = driver.find_element_by_xpath(volumXpat).text
-    
-    temp = [i, name, symbol, marketCap, priceUSD, volume]
-    data.append(temp)
-    if i % 10 == 0:
-        print("", end='.')
-        driver.execute_script("window.scrollTo(0, "+ str(i * 75)+")")
+    temp.append(now)
+    try:
+        for j in range(2,8):
+            xPath = "/html/body/div/div/div[1]/div[2]/div/div[3]/div/div/div[2]/table/tbody/tr["+str(i)+"]/td["+str(j)+"]"
+            tempStr = float(str(driver.find_element_by_xpath(xPath).text).replace("$","").replace(",", ""))
+            temp.append(tempStr)
+
+        if i % 50 == 0:
+            driver.execute_script("window.scrollTo(0, "+ str(i * 500)+")")
+        print(temp)
+        data.append(temp)
+
+    except:
+        pass
+    now = now - 86400
 
 for d in data:
     print(d)
