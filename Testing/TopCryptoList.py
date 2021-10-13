@@ -4,7 +4,7 @@ from pathlib import Path
 import time
 
 print("Loading website...")
-driverPath = str(Path(__file__).parents[1]) + "\\geckodriver.exe" #no exe on linux and swap the \\ with /
+driverPath = str(Path(__file__).parents[1]) + "/geckodriverMac" #no exe on linux and swap the \\ with /
 opts = Options()
 opts.headless = True
 

@@ -1,637 +1,638 @@
-Loading url:https://www.hashtags.org/analytics/shib/
--1 -1
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><head>
-<title>shib Hashtag</title>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<meta name="description" content="">
-<meta name="keywords" content="">
-<meta name="robots" content="index,follow,noarchive">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="search" type="application/opensearchdescription+xml" href="/search.src" title="Add Hashtags.org search">
-<link rel="shortcut icon" href="/favicon.ico">
-<link rel="stylesheet" type="text/css" media="screen" href="/inc/style.css">
-<link rel="stylesheet" type="text/css" media="screen" href="/inc/jquery-ui.min.css">
- 
-<script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="/inc/jquery-1.11.2.min.js"></script>
-<script type="text/javascript" src="/inc/jquery-ui.min.js"></script>
-<script type="text/javascript" src="/inc/script.js"></script>
- 
-<style type="text/css">
-.main-container { width:100%; background-color:#3C92D2; padding-top:10px; padding-left:10px; display:inline-block; overflow:visible; }
-.main-left { width:auto; min-width:710px; float:none; margin:0 250px 0 0; -moz-border-radius:0.6em; border-radius:0.6em; -webkit-border-radius:0.6em; }
-.main-right { width:220px; float:right; margin-right:20px; }
-.content-box { padding:10px; background: url("/images/body-bg.png") repeat scroll 0 0 #E8EAEB; -moz-border-radius:0.6em; border-radius:0.6em; -webkit-border-radius:0.6em; }
-#sro { float:right; display:inline; vertical-align:center; font:10px verdana,arial,sans-serif }
-#clrsel { font-size:12px; }
-.rembtn a:link, .rembtn a:visited, .rembtn a:hover { background-color; background:red; }div.content { clear:both; margin-bottom:10px; width:80%; }div.tn { float:left; margin-right:5px; }
-div.tn img { -moz-border-radius:0.6em; border-radius:0.6em; -webkit-border-radius:0.6em; }
-div.sn { font-size:11px; color:#666; }
-div.text { margin:0 0 10px 60px; line-heightx:1.3; }
-div.stats { font-size:11px; color:#888; }
-div#usercount { display:none; }
-div#userdays { display:none; }
-div.rcontent { clear:both; margin-bottom:10px; border-bottom:1px dashed #ddd; }
-div.rtn { float:left; }
-div.rtn img { -moz-border-radius:0.6em; border-radius:0.6em; -webkit-border-radius:0.6em; }
-div.rtext { margin:0 0 20px 60px; line-heightx:1.3; }
-div.rago { font-size:11px; color:#888; float:right; }
-span.rsn { font-size:11px; color:#666; }
-div.rtweet { }
-div.rtweet a { font-weight:normal; }
-div.retweet { font-size:11px; color:#666; background: transparent url(/images/retweet_hover.png) no-repeat; padding-left:18px; }
-div.retweet a { font-weight:normal; color:#666; }
-div.retweet a:hover { text-decoration:underline; }
-div#newdata { -moz-border-radius:0.6em; border-radius:0.6em; -webkit-border-radius:0.6em; border:1px #888 solid; text-align:center; padding:5px; margin:0 0 10px 0; background-color:rgb(64,149,212); font:13px verdana,arial,sans-serif; color:#fff; cursor:pointer; }@media (min-width:1px) and (max-width:995px) {
-  .content { width:98%!important; }
-}
- 
-</style>
- 
-<script type="text/javascript" src="/inc/jquery-url.js"></script>
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
- 
-<script type="text/javascript">
-cntr['0']=0;
-sinceN['0']=null;
-sinceL['0']=null;
-tOut['0']=null;
-//google.load("visualization", "1", {packages:["corechart"]});
+    <title>shib Hashtag</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index,follow,noarchive">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="search" type="application/opensearchdescription+xml" href="/search.src" title="Add Hashtags.org search">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" media="screen" href="/inc/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/inc/jquery-ui.min.css">
 
-function drawChart() {
-  timeframes = new Array();
-  timeframes["1h"] = new Array(3,6,1,'per five minutes',(5*60));
-  timeframes["2h"] = new Array(3,6,2,'per ten minutes',(5*60));
-  timeframes["3h"] = new Array(3,6,1,'per quarter hour',(15*60));
-  timeframes["6h"] = new Array(3,6,1,'per half hour',(30*60));
-  timeframes["12h"] = new Array(3,6,1,'per hour',3600);
-  timeframes["1d"] = new Array(3,6,2,'per hour',3600);
-  timeframes["2d"] = new Array(3,6,4,'per hour',3600);
-  timeframes["3d"] = new Array(3,6,6,'per hour',3600);
-  timeframes["1w"] = new Array(1,2,24,'per hour',3600);
-  timeframes["2w"] = new Array(1,2,24,'per hour',3600);
-  timeframes["1m"] = new Array(1,2,7,'per day',86400);
-  timeframes["2m"] = new Array(1,2,7,'per day',86400);
-  timeframes["3m"] = new Array(1,2,7,'per day',86400);
-  timeframes["6m"] = new Array(1,2,14,'per day',86400);
-  timeframes["1y"] = new Array(1,2,30,'per day',86400);
+    <script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="/inc/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="/inc/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/inc/script.js"></script>
 
-  if(typeof(document.addview) !== "undefined") {
-    if(parseInt(document.addview.viewArr.value.length) > 0 &&
-       parseInt(document.addview.rm.value.length) > 0 &&
-       parseInt(document.addview.rc.value.length) > 0 &&
-       parseInt(document.addview.rp.value.length) > 0) {
-      _$('timelineDiv').innerHTML = _$('loadingDiv').innerHTML;
-      if(document.addview.rc.value=='Raw') { 
-        var ajaxURL = location.href.split('?')[0] + '?act=formatRaw&ht='+encodeURIComponent(document.addview.viewArr.value)+'&rm='+document.addview.rm.value+'&rc='+document.addview.rc.value+'&rp='+document.addview.rp.value+'&src=sample&sample=1';
-        if(parseInt(document.addview.begin_dt.value.length) > 0 &&
-           parseInt(document.addview.end_dt.value.length) > 0) {
-           ajaxURL += '&begin_dt='+document.addview.begin_dt.value+'&end_dt='+document.addview.end_dt.value;
+    <style type="text/css">
+        .main-container { width:100%; background-color:#3C92D2; padding-top:10px; padding-left:10px; display:inline-block; overflow:visible; }
+        .main-left { width:auto; min-width:710px; float:none; margin:0 250px 0 0; -moz-border-radius:0.6em; border-radius:0.6em; -webkit-border-radius:0.6em; }
+        .main-right { width:220px; float:right; margin-right:20px; }
+        .content-box { padding:10px; background: url("/images/body-bg.png") repeat scroll 0 0 #E8EAEB; -moz-border-radius:0.6em; border-radius:0.6em; -webkit-border-radius:0.6em; }
+        #sro { float:right; display:inline; vertical-align:center; font:10px verdana,arial,sans-serif }
+        #clrsel { font-size:12px; }
+        .rembtn a:link, .rembtn a:visited, .rembtn a:hover { background-color; background:red; }div.content { clear:both; margin-bottom:10px; width:80%; }div.tn { float:left; margin-right:5px; }
+        div.tn img { -moz-border-radius:0.6em; border-radius:0.6em; -webkit-border-radius:0.6em; }
+        div.sn { font-size:11px; color:#666; }
+        div.text { margin:0 0 10px 60px; line-heightx:1.3; }
+        div.stats { font-size:11px; color:#888; }
+        div#usercount { display:none; }
+        div#userdays { display:none; }
+        div.rcontent { clear:both; margin-bottom:10px; border-bottom:1px dashed #ddd; }
+        div.rtn { float:left; }
+        div.rtn img { -moz-border-radius:0.6em; border-radius:0.6em; -webkit-border-radius:0.6em; }
+        div.rtext { margin:0 0 20px 60px; line-heightx:1.3; }
+        div.rago { font-size:11px; color:#888; float:right; }
+        span.rsn { font-size:11px; color:#666; }
+        div.rtweet { }
+        div.rtweet a { font-weight:normal; }
+        div.retweet { font-size:11px; color:#666; background: transparent url(/images/retweet_hover.png) no-repeat; padding-left:18px; }
+        div.retweet a { font-weight:normal; color:#666; }
+        div.retweet a:hover { text-decoration:underline; }
+        div#newdata { -moz-border-radius:0.6em; border-radius:0.6em; -webkit-border-radius:0.6em; border:1px #888 solid; text-align:center; padding:5px; margin:0 0 10px 0; background-color:rgb(64,149,212); font:13px verdana,arial,sans-serif; color:#fff; cursor:pointer; }@media (min-width:1px) and (max-width:995px) {
+            .content { width:98%!important; }
         }
-        var output = jQuery.ajax({ url: ajaxURL, dataType:"xml", async: false }).responseText;
-        _$('timelineDiv').innerHTML = output;        return 0; 
-      }
-      var ajaxURL = '/combined/timeline.html?hashtag='+encodeURIComponent(document.addview.viewArr.value)+'&bucket='+document.addview.rm.value+'&chart='+document.addview.rc.value+'&timeframe='+document.addview.rp.value+'&src=sample&ajax=1&sample=1';
-      if(parseInt(document.addview.begin_dt.value.length) > 0 &&
-         parseInt(document.addview.end_dt.value.length) > 0) {
-         ajaxURL += '&begin_dt='+document.addview.begin_dt.value+'&end_dt='+document.addview.end_dt.value;
-      }
-      var jsonData = jQuery.ajax({ url: ajaxURL, dataType:"json", async: false }).responseText;
-      var data = eval("new google.visualization.DataTable("+jsonData+",0.6)");
-      var options = {
-        height: 400,
-        lineWidth: timeframes[document.addview.rp.value][0],
-        pointSize: timeframes[document.addview.rp.value][1],
-        fontName: 'bitter', 
-        hAxis: { showTextEvery: timeframes[document.addview.rp.value][2] },
-        legend: { position: 'bottom' },
-        chartArea: { top: '10%', width: '85%' },
-        backgroundColor: { fill: 'none' }
-      };
-      var chart = eval("new google.visualization."+document.addview.rc.value+"Chart(_$('timelineDiv'))");
-      chart.draw(data,options);
-      google.visualization.events.addListener(chart, 'select', function() { 
-        if(chart.getSelection().length > 0) {
-          if((chart.getSelection()[0].row >=0) && chart.getSelection()[0].column) {
-            if((data.getFormattedValue(chart.getSelection()[0].row, chart.getSelection()[0].column) > 0)) {
-              var trackArr = document.addview.trackArr.value.split(',');
-              for(i=0;i<trackArr.length;i++) {
-                if(data.getColumnId(chart.getSelection()[0].column).toLowerCase() == trackArr[i].toLowerCase()) {
-                  etHT = data.getColumnId(chart.getSelection()[0].column);
-                  etFROM = data.getValue(chart.getSelection()[0].row,0);
-                  etINT = timeframes[document.addview.rp.value][4];
-                  openModal('extractTweets',770,extractTweet);
-                  break;
+
+    </style>
+
+    <script type="text/javascript" src="/inc/jquery-url.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <script type="text/javascript">
+        cntr['0']=0;
+        sinceN['0']=null;
+        sinceL['0']=null;
+        tOut['0']=null;
+        //google.load("visualization", "1", {packages:["corechart"]});
+
+        function drawChart() {
+            timeframes = new Array();
+            timeframes["1h"] = new Array(3,6,1,'per five minutes',(5*60));
+            timeframes["2h"] = new Array(3,6,2,'per ten minutes',(5*60));
+            timeframes["3h"] = new Array(3,6,1,'per quarter hour',(15*60));
+            timeframes["6h"] = new Array(3,6,1,'per half hour',(30*60));
+            timeframes["12h"] = new Array(3,6,1,'per hour',3600);
+            timeframes["1d"] = new Array(3,6,2,'per hour',3600);
+            timeframes["2d"] = new Array(3,6,4,'per hour',3600);
+            timeframes["3d"] = new Array(3,6,6,'per hour',3600);
+            timeframes["1w"] = new Array(1,2,24,'per hour',3600);
+            timeframes["2w"] = new Array(1,2,24,'per hour',3600);
+            timeframes["1m"] = new Array(1,2,7,'per day',86400);
+            timeframes["2m"] = new Array(1,2,7,'per day',86400);
+            timeframes["3m"] = new Array(1,2,7,'per day',86400);
+            timeframes["6m"] = new Array(1,2,14,'per day',86400);
+            timeframes["1y"] = new Array(1,2,30,'per day',86400);
+
+            if(typeof(document.addview) !== "undefined") {
+                if(parseInt(document.addview.viewArr.value.length) > 0 &&
+                    parseInt(document.addview.rm.value.length) > 0 &&
+                    parseInt(document.addview.rc.value.length) > 0 &&
+                    parseInt(document.addview.rp.value.length) > 0) {
+                    _$('timelineDiv').innerHTML = _$('loadingDiv').innerHTML;
+                    if(document.addview.rc.value=='Raw') {
+                        var ajaxURL = location.href.split('?')[0] + '?act=formatRaw&ht='+encodeURIComponent(document.addview.viewArr.value)+'&rm='+document.addview.rm.value+'&rc='+document.addview.rc.value+'&rp='+document.addview.rp.value+'&src=sample&sample=1';
+                        if(parseInt(document.addview.begin_dt.value.length) > 0 &&
+                            parseInt(document.addview.end_dt.value.length) > 0) {
+                            ajaxURL += '&begin_dt='+document.addview.begin_dt.value+'&end_dt='+document.addview.end_dt.value;
+                        }
+                        var output = jQuery.ajax({ url: ajaxURL, dataType:"xml", async: false }).responseText;
+                        _$('timelineDiv').innerHTML = output;        return 0;
+                    }
+                    var ajaxURL = '/combined/timeline.html?hashtag='+encodeURIComponent(document.addview.viewArr.value)+'&bucket='+document.addview.rm.value+'&chart='+document.addview.rc.value+'&timeframe='+document.addview.rp.value+'&src=sample&ajax=1&sample=1';
+                    if(parseInt(document.addview.begin_dt.value.length) > 0 &&
+                        parseInt(document.addview.end_dt.value.length) > 0) {
+                        ajaxURL += '&begin_dt='+document.addview.begin_dt.value+'&end_dt='+document.addview.end_dt.value;
+                    }
+                    var jsonData = jQuery.ajax({ url: ajaxURL, dataType:"json", async: false }).responseText;
+                    var data = eval("new google.visualization.DataTable("+jsonData+",0.6)");
+                    var options = {
+                        height: 400,
+                        lineWidth: timeframes[document.addview.rp.value][0],
+                        pointSize: timeframes[document.addview.rp.value][1],
+                        fontName: 'bitter',
+                        hAxis: { showTextEvery: timeframes[document.addview.rp.value][2] },
+                        legend: { position: 'bottom' },
+                        chartArea: { top: '10%', width: '85%' },
+                        backgroundColor: { fill: 'none' }
+                    };
+                    var chart = eval("new google.visualization."+document.addview.rc.value+"Chart(_$('timelineDiv'))");
+                    chart.draw(data,options);
+                    google.visualization.events.addListener(chart, 'select', function() {
+                        if(chart.getSelection().length > 0) {
+                            if((chart.getSelection()[0].row >=0) && chart.getSelection()[0].column) {
+                                if((data.getFormattedValue(chart.getSelection()[0].row, chart.getSelection()[0].column) > 0)) {
+                                    var trackArr = document.addview.trackArr.value.split(',');
+                                    for(i=0;i<trackArr.length;i++) {
+                                        if(data.getColumnId(chart.getSelection()[0].column).toLowerCase() == trackArr[i].toLowerCase()) {
+                                            etHT = data.getColumnId(chart.getSelection()[0].column);
+                                            etFROM = data.getValue(chart.getSelection()[0].row,0);
+                                            etINT = timeframes[document.addview.rp.value][4];
+                                            openModal('extractTweets',770,extractTweet);
+                                            break;
+                                        }
+                                    }
+                                }
+                            } else {
+                                if(data.getColumnLabel(chart.getSelection()[0].column).indexOf("(estimated)") !== -1) {
+                                    openModal('estimatedHelp',770,false);
+                                }
+                            }
+                        }
+                    });     }
+            }
+        }
+        function drawRelatedChart(ht,src,div) {
+            var ajaxURL = '/combined/related.html?hashtag='+encodeURIComponent(ht)+'&src='+src+'&ajax=1&sample=1';
+            var jsonData = jQuery.ajax({ url: ajaxURL, dataType:"json", async: false }).responseText;
+            var data = eval("new google.visualization.DataTable("+jsonData+",0.6)");
+            var wdth = Math.round(jQuery('.content').width()*.85);
+            if(wdth > 500) { wdth=500; }
+            var options = {
+                width: wdth,
+                height: wdth,
+                is3D: true,
+                fontName: 'bitter',
+                legend: { position: 'right', alignment: 'center' },
+                chartArea: { width: '96%' }
+            };
+            var chart = new google.visualization.PieChart(document.getElementById(div));
+            chart.draw(data, options);
+            google.visualization.events.addListener(chart, 'select', selectHandler);
+            function selectHandler(e) {
+                if (data.getValue(chart.getSelection()[0].row, 0) == 'Upgrade To View') {
+                    window.top.location.href = '/analytics.html';
                 }
-              }
+                else if (data.getValue(chart.getSelection()[0].row, 0) != 'ALL OTHERS') {
+                    window.top.location.href = '/analytics/' + data.getValue(chart.getSelection()[0].row,0) + '/';
+                }
             }
-          } else {
-            if(data.getColumnLabel(chart.getSelection()[0].column).indexOf("(estimated)") !== -1) { 
-              openModal('estimatedHelp',770,false);
-            }
-          }
         }
-      });     }
-  }
-}
-function drawRelatedChart(ht,src,div) {
-  var ajaxURL = '/combined/related.html?hashtag='+encodeURIComponent(ht)+'&src='+src+'&ajax=1&sample=1';
-  var jsonData = jQuery.ajax({ url: ajaxURL, dataType:"json", async: false }).responseText;
-  var data = eval("new google.visualization.DataTable("+jsonData+",0.6)");
-  var wdth = Math.round(jQuery('.content').width()*.85);
-  if(wdth > 500) { wdth=500; }
-  var options = {
-    width: wdth,
-    height: wdth,
-    is3D: true,
-    fontName: 'bitter', 
-    legend: { position: 'right', alignment: 'center' },
-    chartArea: { width: '96%' }
-  };
-  var chart = new google.visualization.PieChart(document.getElementById(div));
-  chart.draw(data, options);
-  google.visualization.events.addListener(chart, 'select', selectHandler); 
-  function selectHandler(e) {
-    if (data.getValue(chart.getSelection()[0].row, 0) == 'Upgrade To View') {
-      window.top.location.href = '/analytics.html';
-    }
-    else if (data.getValue(chart.getSelection()[0].row, 0) != 'ALL OTHERS') {
-      window.top.location.href = '/analytics/' + data.getValue(chart.getSelection()[0].row,0) + '/';
-    }
-  }
-}
 
-jQuery(document).ready( function () {
+        jQuery(document).ready( function () {
 
-  var wdth = jQuery('.content').width();
-  jQuery('#timelineDiv').width(wdth);
-  jQuery('#chartDiv').width(wdth);
-  _$S('chartWM').marginLeft=((wdth/2)-150)+'px';
-  _$S('chartWM').marginTop='130px';
+            var wdth = jQuery('.content').width();
+            jQuery('#timelineDiv').width(wdth);
+            jQuery('#chartDiv').width(wdth);
+            _$S('chartWM').marginLeft=((wdth/2)-150)+'px';
+            _$S('chartWM').marginTop='130px';
 
-  if(typeof(document.addview) !== "undefined") {
-    if(parseInt(document.addview.viewArr.value.length) > 0 &&
-       parseInt(document.addview.rm.value.length) > 0 &&
-       parseInt(document.addview.rc.value.length) > 0 &&
-       parseInt(document.addview.rp.value.length) > 0) {
-      _$('timelineDiv').innerHTML = _$('loadingDiv').innerHTML;
-    }
-  }
-  google.charts.load('current', {packages: ['corechart']});
-  google.charts.setOnLoadCallback(drawChart);
-  timeout = setInterval(function () {
-    if(google.visualization != undefined) {
-      drawChart();
-    var freeUser = true;
-  jQuery.ajax({ url:'/combined/definition.html?hashtag='+encodeURIComponent('shib')+'&src=sample&ajax=1&sample=1', cache:false }).done(function( html ) { _$('defnDiv0').innerHTML = html; });
-  jQuery.ajax({ url:'/combined/prolific.html?hashtag='+encodeURIComponent('shib')+'&src=sample&ajax=1&sample=1', cache:false }).done(function( html ) { _$('prolificDiv0').innerHTML = html; });
-  jQuery.ajax({ url:'/combined/recent.html?hashtag='+encodeURIComponent('shib')+'&src=sample&ajax=1&sample=1&id=0', cache:false }).done(function( rslt ) { rsltArr = rslt.split('[[,]]'); _$('recentDiv0').innerHTML = rsltArr[0]; sinceN['0']=rsltArr[1]; recentId='0'; recentHT='shib'; recentSrc='sample';  if (!freeUser) { tOut['0'] = setTimeout('checkRecent()',60000); }});
-  drawRelatedChart('shib','sample','relatedDiv0');
-  jQuery("#shadower").css("height", jQuery(document).height()).hide();
-  jQuery("#lightSwitch").click(function(){ jQuery("#shadower").show(); });
-  jQuery("#lightSwitch2").click(function(){ jQuery("#shadower").show(); });
-      clearInterval(timeout);
-    }
-  }, 500);
-  
-});
-jQuery(window).resize(function() {
-  var wdth = jQuery('.content').width();
-  jQuery('#timelineDiv').width(wdth);
-  jQuery('#chartDiv').width(wdth);
-  _$S('chartWM').marginLeft=((wdth/2)-150)+'px';
-  drawChart();
-  var relDivArr = jQuery("[name='relatedDiv']");
-  var htDivArr = jQuery("[name='htLI']");
-  var lngth = relDivArr.length;
-  for(k=0;k<lngth;k++) {
-    drawRelatedChart(htDivArr[k].innerHTML,'sample',relDivArr[k].id);
-  }
+            if(typeof(document.addview) !== "undefined") {
+                if(parseInt(document.addview.viewArr.value.length) > 0 &&
+                    parseInt(document.addview.rm.value.length) > 0 &&
+                    parseInt(document.addview.rc.value.length) > 0 &&
+                    parseInt(document.addview.rp.value.length) > 0) {
+                    _$('timelineDiv').innerHTML = _$('loadingDiv').innerHTML;
+                }
+            }
+            google.charts.load('current', {packages: ['corechart']});
+            google.charts.setOnLoadCallback(drawChart);
+            timeout = setInterval(function () {
+                if(google.visualization != undefined) {
+                    drawChart();
+                    var freeUser = true;
+                    jQuery.ajax({ url:'/combined/definition.html?hashtag='+encodeURIComponent('shib')+'&src=sample&ajax=1&sample=1', cache:false }).done(function( html ) { _$('defnDiv0').innerHTML = html; });
+                    jQuery.ajax({ url:'/combined/prolific.html?hashtag='+encodeURIComponent('shib')+'&src=sample&ajax=1&sample=1', cache:false }).done(function( html ) { _$('prolificDiv0').innerHTML = html; });
+                    jQuery.ajax({ url:'/combined/recent.html?hashtag='+encodeURIComponent('shib')+'&src=sample&ajax=1&sample=1&id=0', cache:false }).done(function( rslt ) { rsltArr = rslt.split('[[,]]'); _$('recentDiv0').innerHTML = rsltArr[0]; sinceN['0']=rsltArr[1]; recentId='0'; recentHT='shib'; recentSrc='sample';  if (!freeUser) { tOut['0'] = setTimeout('checkRecent()',60000); }});
+                    drawRelatedChart('shib','sample','relatedDiv0');
+                    jQuery("#shadower").css("height", jQuery(document).height()).hide();
+                    jQuery("#lightSwitch").click(function(){ jQuery("#shadower").show(); });
+                    jQuery("#lightSwitch2").click(function(){ jQuery("#shadower").show(); });
+                    clearInterval(timeout);
+                }
+            }, 500);
 
-}); 
-function search(frm){
-  var hashtag = frm.search_box.value
-  //remove duplicate whitespace
-  hashtag = hashtag.replace(/\s+/g,' ');
-  //trim spaces front and back
-  hashtag = hashtag.replace(/^\s+|\s+$/g,'')
-  //remove all non alphanumeric charts, but leave comma, underscore, and space
-  hashtag = hashtag.replace(/[^a-z0-9\,_\s\u0080-\uffff]/gi,'');
-  //replace remaining spaces with a comma
-  hashtag = hashtag.replace(/\s/g,',');
-  //replace multi commas with a comma
-  hashtag = hashtag.replace(/,+/g,',');
+        });
+        jQuery(window).resize(function() {
+            var wdth = jQuery('.content').width();
+            jQuery('#timelineDiv').width(wdth);
+            jQuery('#chartDiv').width(wdth);
+            _$S('chartWM').marginLeft=((wdth/2)-150)+'px';
+            drawChart();
+            var relDivArr = jQuery("[name='relatedDiv']");
+            var htDivArr = jQuery("[name='htLI']");
+            var lngth = relDivArr.length;
+            for(k=0;k<lngth;k++) {
+                drawRelatedChart(htDivArr[k].innerHTML,'sample',relDivArr[k].id);
+            }
 
-  if (typeof hashtag !== 'undefined' && hashtag.length>0)
-    window.location =  '/analytics/' + hashtag + '/';
-  else
-  {
-    frm.search_box.value = ""
-    alert('Please enter a valid search term');
-  }
-  return false; 
-}
-function defSearch(){
-  var hashtag = $("#defKeyword").val();
-  //remove duplicate whitespace
-  hashtag = hashtag.replace(/\s+/g,' ');
-  //trim spaces front and back
-  hashtag = hashtag.replace(/^\s+|\s+$/g,'')
-  //remove all non alphanumeric charts, but leave comma, underscore, and space
-  hashtag = hashtag.replace(/[^a-z0-9\,_\s\u0080-\uffff]/gi,'');
-  //replace remaining spaces with a comma
-  hashtag = hashtag.replace(/\s/g,',');
-  //replace multi commas with a comma
-  hashtag = hashtag.replace(/,+/g,',');
+        });
+        function search(frm){
+            var hashtag = frm.search_box.value
+            //remove duplicate whitespace
+            hashtag = hashtag.replace(/\s+/g,' ');
+            //trim spaces front and back
+            hashtag = hashtag.replace(/^\s+|\s+$/g,'')
+            //remove all non alphanumeric charts, but leave comma, underscore, and space
+            hashtag = hashtag.replace(/[^a-z0-9\,_\s\u0080-\uffff]/gi,'');
+            //replace remaining spaces with a comma
+            hashtag = hashtag.replace(/\s/g,',');
+            //replace multi commas with a comma
+            hashtag = hashtag.replace(/,+/g,',');
 
-  if (typeof hashtag !== 'undefined' && hashtag.length>0) {
-    firstTag = hashtag.split(",");
-    if(firstTag !== "undefined" && firstTag.length>0)
-      window.location =  '/definition/' + firstTag[0] + '/';
-  } else {
-    $("#htkey").val("");
-    alert('Please enter a valid hashtag');
-  }
-  return false; 
-}
-function sideMenu() {
-  $(".obscure").toggle();
-  if($(".sideMenu").position().left == 0) {
-    $(".sideMenu").animate({ left: "-=252", }, 250);
-  } else {
-    $(".sideMenu").animate({ left: "+=252", }, 250);
-  }
-}
-jQuery(document).ready( function () {
-  $( "#modalDialogue" ).draggable();
+            if (typeof hashtag !== 'undefined' && hashtag.length>0)
+                window.location =  '/analytics/' + hashtag + '/';
+            else
+            {
+                frm.search_box.value = ""
+                alert('Please enter a valid search term');
+            }
+            return false;
+        }
+        function defSearch(){
+            var hashtag = $("#defKeyword").val();
+            //remove duplicate whitespace
+            hashtag = hashtag.replace(/\s+/g,' ');
+            //trim spaces front and back
+            hashtag = hashtag.replace(/^\s+|\s+$/g,'')
+            //remove all non alphanumeric charts, but leave comma, underscore, and space
+            hashtag = hashtag.replace(/[^a-z0-9\,_\s\u0080-\uffff]/gi,'');
+            //replace remaining spaces with a comma
+            hashtag = hashtag.replace(/\s/g,',');
+            //replace multi commas with a comma
+            hashtag = hashtag.replace(/,+/g,',');
 
-  /*
-  $('input#search_box').autocomplete({
-    source: '/ajax/autocomplete'
-  , delay: 300
-  , minLength: 2
-  , open: function() { setTimeout(function() { $('.ui-autocomplete').css('z-index', 99999999999999); }, 0); }
-  , select: function(event,ui) { $('input#search_box').val(ui.item.label); window.location =  '/analytics/' + ui.item.label + '/'; }
-  });
-  */
+            if (typeof hashtag !== 'undefined' && hashtag.length>0) {
+                firstTag = hashtag.split(",");
+                if(firstTag !== "undefined" && firstTag.length>0)
+                    window.location =  '/definition/' + firstTag[0] + '/';
+            } else {
+                $("#htkey").val("");
+                alert('Please enter a valid hashtag');
+            }
+            return false;
+        }
+        function sideMenu() {
+            $(".obscure").toggle();
+            if($(".sideMenu").position().left == 0) {
+                $(".sideMenu").animate({ left: "-=252", }, 250);
+            } else {
+                $(".sideMenu").animate({ left: "+=252", }, 250);
+            }
+        }
+        jQuery(document).ready( function () {
+            $( "#modalDialogue" ).draggable();
 
-  /*
-  $('input#defKeyword').autocomplete({
-    source: '/ajax/autocomplete'
-  , delay: 300
-  , minLength: 2
-  , open: function() { setTimeout(function() { $('.ui-autocomplete').css('z-index', 99999999999999); }, 0); }
-  , select: function(event,ui) { $('input#defKeyword').val(ui.item.label); window.location =  '/definition/' + ui.item.label + '/'; }
-  });
-  */
+            /*
+            $('input#search_box').autocomplete({
+              source: '/ajax/autocomplete'
+            , delay: 300
+            , minLength: 2
+            , open: function() { setTimeout(function() { $('.ui-autocomplete').css('z-index', 99999999999999); }, 0); }
+            , select: function(event,ui) { $('input#search_box').val(ui.item.label); window.location =  '/analytics/' + ui.item.label + '/'; }
+            });
+            */
 
-});
+            /*
+            $('input#defKeyword').autocomplete({
+              source: '/ajax/autocomplete'
+            , delay: 300
+            , minLength: 2
+            , open: function() { setTimeout(function() { $('.ui-autocomplete').css('z-index', 99999999999999); }, 0); }
+            , select: function(event,ui) { $('input#defKeyword').val(ui.item.label); window.location =  '/definition/' + ui.item.label + '/'; }
+            });
+            */
 
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        });
 
-ga('create', 'UA-2918896-1', 'auto');
-ga('send', 'pageview');
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-</script>
-<script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/loader.js"></script><link id="load-css-0" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/51/css/core/tooltip.css"><link id="load-css-1" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/51/css/util/util.css"><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/js/jsapi_compiled_default_module.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/js/jsapi_compiled_graphics_module.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/js/jsapi_compiled_ui_module.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/js/jsapi_compiled_corechart_module.js"></script></head>
+        ga('create', 'UA-2918896-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/loader.js"></script><link id="load-css-0" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/51/css/core/tooltip.css"><link id="load-css-1" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/51/css/util/util.css"><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/js/jsapi_compiled_default_module.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/js/jsapi_compiled_graphics_module.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/js/jsapi_compiled_ui_module.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/js/jsapi_compiled_corechart_module.js"></script></head>
 <body>
 <div id="obscure"></div>
 <!--
 <div id="modalDialogue" style="z-index: 65555; visibility: hidden; opacity: 0;filter:alpha(opacity=0); position:absolute; left:50%; top:50px;">
 //-->
 <div id="modalDialogue" class="hdn mAuto modalW ui-draggable ui-draggable-handle" style="z-index: 65555; position:absolute;">
-  <div class="modalMiddle">
-    <div class="modalRight">
-     <div class="modalCenter">
-        <a class="modalClose" href="javascript:void(0);" style="visibility: visible;" onclick="closeModal();"></a>
-        <div id="mBody"></div>
-      </div>
+    <div class="modalMiddle">
+        <div class="modalRight">
+            <div class="modalCenter">
+                <a class="modalClose" href="javascript:void(0);" style="visibility: visible;" onclick="closeModal();"></a>
+                <div id="mBody"></div>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="clr"></div>
+    <div class="clr"></div>
 </div>
- <div class="sideMenu">
-  <form name="sideForm" method="GET" onsubmit="search(this,event); return false;">
-    <div class="search_form">
-      <div class="search_hash">#</div>
-      <input type="text" size="20" name="k" class="search_box" id="search_box" value="shib" autocomplete="off" onfocus="if(this.value == 'type a hashtag and hit enter') { this.value=''; }">
-      <div class="magnifier"><input type="image" class="mag_img" src="/images/search.png" alt="search"></div>
+<div class="sideMenu">
+    <form name="sideForm" method="GET" onsubmit="search(this,event); return false;">
+        <div class="search_form">
+            <div class="search_hash">#</div>
+            <input type="text" size="20" name="k" class="search_box" id="search_box" value="shib" autocomplete="off" onfocus="if(this.value == 'type a hashtag and hit enter') { this.value=''; }">
+            <div class="magnifier"><input type="image" class="mag_img" src="/images/search.png" alt="search"></div>
+        </div>
+    </form>
+    <nav>
+        <ul>
+            <li title="Hashtag Analytics"><a href="/analytics.html">Analytics <span class="caret"></span></a>
+                <div class="box-shadow">
+                    <ul><li title="Upgrade"><a href="/analytics.html">Upgrade</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li title="Hashtag Articles"><a href="/articles/">Articles <span class="caret"></span></a>
+                <div class="box-shadow subLinks">
+                    <ul><li title="Business Articles"><a href="/business/">Business</a></li>
+                        <li title="Entertainment Articles"><a href="/entertainment/">Entertainment</a></li>
+                        <li title="Featured Articles"><a href="/featured/">Featured</a></li>
+                        <li title="Government Articles"><a href="/government/">Government</a></li>
+                        <li title="How-To Articles"><a href="/how-to/">How-To</a></li>
+                        <li title="News Articles"><a href="/news/">News</a></li>
+                        <li title="Platform Articles"><a href="/platforms/">Platforms</a></li>
+                        <li title="Religious Articles"><a href="/religion/">Religion</a></li>
+                        <li title="Research Articles"><a href="/research/">Research</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li title="Hashtag Dictionary Definitions"><a href="/definition/">Dictionary <span class="caret"></span></a>
+                <div class="box-shadow subLinks">
+                    <ul><li title="Hashtag Dictionary Definitions"><a href="/definition/">Show Definitions</a></li>
+                        <li title="Add Definition"><a href="/definition/add/">Add Definition</a></li>
+                        <li title="What's New"><a href="/hashtag-definitions-whats-new/">Recently Added</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li title="Support"><a href="javascript:void(0);" onclick="openModal('contact',770,'1');">Support <span class="caret"></span></a>
+                <div class="box-shadow">
+                    <ul><li title="How-To Articles"><a href="/how-to/">How-To</a></li>
+                        <li title="Contact"><a href="/contact/">Contact Us</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li title="Profile"><a href="/subscription/">Profile <span class="caret"></span></a>
+                <div class="box-shadow">
+                    <ul><li><a href="/profile/login/?from=B">Log In</a></li><li><a href="/profile/register/">Register</a></li></ul>
+                </div>
+            </li>
+            <div class="clr"></div>
+        </ul></nav></div>
+<div class="obscure" onclick="sideMenu();"></div>
+<div class="header box-shadow">
+    <div class="header-wrapper">
+        <div class="logo"><a href="/"><img class="logoimg" src="/images/hashtags_logo.png" alt="Hashtags.org" border="0"></a></div>
+        <div class="topMenu">
+            <div class="user white right ">Welcome Guest</div>
+            <form name="topForm" method="GET" onsubmit="search(this,event); return false;">
+                <div class="search_form">
+                    <div class="search_hash">#</div>
+                    <input type="text" size="20" name="k" class="search_box" id="search_box" value="shib" autocomplete="off" onfocus="if(this.value == 'type a hashtag and hit enter') { this.value=''; }">
+                    <div class="magnifier"><input type="image" class="mag_img" src="/images/search.png" alt="search"></div>
+                </div>
+            </form>
+            <a href="javascript:void(0)" onclick="sideMenu();"><div class="border-menu"></div></a>
+            <nav>
+                <ul>
+                    <li title="Hashtag Analytics"><a href="/analytics.html">Analytics <span class="caret"></span></a>
+                        <div class="box-shadow">
+                            <ul><li title="Upgrade"><a href="/analytics.html">Upgrade</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li title="Hashtag Articles"><a href="/articles/">Articles <span class="caret"></span></a>
+                        <div class="box-shadow subLinks">
+                            <ul><li title="Business Articles"><a href="/business/">Business</a></li>
+                                <li title="Entertainment Articles"><a href="/entertainment/">Entertainment</a></li>
+                                <li title="Featured Articles"><a href="/featured/">Featured</a></li>
+                                <li title="Government Articles"><a href="/government/">Government</a></li>
+                                <li title="How-To Articles"><a href="/how-to/">How-To</a></li>
+                                <li title="News Articles"><a href="/news/">News</a></li>
+                                <li title="Platform Articles"><a href="/platforms/">Platforms</a></li>
+                                <li title="Religious Articles"><a href="/religion/">Religion</a></li>
+                                <li title="Research Articles"><a href="/research/">Research</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li title="Hashtag Dictionary Definitions"><a href="/definition/">Dictionary <span class="caret"></span></a>
+                        <div class="box-shadow subLinks">
+                            <ul><li title="Hashtag Dictionary Definitions"><a href="/definition/">Show Definitions</a></li>
+                                <li title="Add Definition"><a href="/definition/add/">Add Definition</a></li>
+                                <li title="What's New"><a href="/hashtag-definitions-whats-new/">Recently Added</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li title="Support"><a href="javascript:void(0);" onclick="openModal('contact',770,'1');">Support <span class="caret"></span></a>
+                        <div class="box-shadow">
+                            <ul><li title="How-To Articles"><a href="/how-to/">How-To</a></li>
+                                <li title="Contact"><a href="/contact/">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li title="Profile"><a href="/subscription/">Profile <span class="caret"></span></a>
+                        <div class="box-shadow">
+                            <ul><li><a href="/profile/login/?from=B">Log In</a></li><li><a href="/profile/register/">Register</a></li></ul>
+                        </div>
+                    </li>
+                </ul></nav></div>
+        <div class="clr"></div>
     </div>
-  </form>
-  <nav>
- <ul>
-  <li title="Hashtag Analytics"><a href="/analytics.html">Analytics <span class="caret"></span></a>
-   <div class="box-shadow">
-    <ul><li title="Upgrade"><a href="/analytics.html">Upgrade</a></li>
-</ul>
-   </div>
-  </li>
-  <li title="Hashtag Articles"><a href="/articles/">Articles <span class="caret"></span></a>
-   <div class="box-shadow subLinks">
-    <ul><li title="Business Articles"><a href="/business/">Business</a></li>
-<li title="Entertainment Articles"><a href="/entertainment/">Entertainment</a></li>
-<li title="Featured Articles"><a href="/featured/">Featured</a></li>
-<li title="Government Articles"><a href="/government/">Government</a></li>
-<li title="How-To Articles"><a href="/how-to/">How-To</a></li>
-<li title="News Articles"><a href="/news/">News</a></li>
-<li title="Platform Articles"><a href="/platforms/">Platforms</a></li>
-<li title="Religious Articles"><a href="/religion/">Religion</a></li>
-<li title="Research Articles"><a href="/research/">Research</a></li>
-</ul>
-   </div>
-  </li>
-  <li title="Hashtag Dictionary Definitions"><a href="/definition/">Dictionary <span class="caret"></span></a>
-   <div class="box-shadow subLinks">
-    <ul><li title="Hashtag Dictionary Definitions"><a href="/definition/">Show Definitions</a></li>
-<li title="Add Definition"><a href="/definition/add/">Add Definition</a></li>
-<li title="What's New"><a href="/hashtag-definitions-whats-new/">Recently Added</a></li>
-</ul>
-   </div>
-  </li>
-  <li title="Support"><a href="javascript:void(0);" onclick="openModal('contact',770,'1');">Support <span class="caret"></span></a>
-   <div class="box-shadow">
-    <ul><li title="How-To Articles"><a href="/how-to/">How-To</a></li>
-<li title="Contact"><a href="/contact/">Contact Us</a></li>
-</ul>
-   </div>
-  </li>
-  <li title="Profile"><a href="/subscription/">Profile <span class="caret"></span></a>
-   <div class="box-shadow">
-    <ul><li><a href="/profile/login/?from=B">Log In</a></li><li><a href="/profile/register/">Register</a></li></ul>
-   </div>
-  </li>
-  <div class="clr"></div>
- </ul></nav></div>
- <div class="obscure" onclick="sideMenu();"></div>
- <div class="header box-shadow">
-  <div class="header-wrapper">
-   <div class="logo"><a href="/"><img class="logoimg" src="/images/hashtags_logo.png" alt="Hashtags.org" border="0"></a></div>
-   <div class="topMenu">
-     <div class="user white right ">Welcome Guest</div>
-     <form name="topForm" method="GET" onsubmit="search(this,event); return false;">
-       <div class="search_form">
-         <div class="search_hash">#</div>
-         <input type="text" size="20" name="k" class="search_box" id="search_box" value="shib" autocomplete="off" onfocus="if(this.value == 'type a hashtag and hit enter') { this.value=''; }">
-         <div class="magnifier"><input type="image" class="mag_img" src="/images/search.png" alt="search"></div>
-       </div>
-     </form>
-     <a href="javascript:void(0)" onclick="sideMenu();"><div class="border-menu"></div></a>
-     <nav>
- <ul>
-  <li title="Hashtag Analytics"><a href="/analytics.html">Analytics <span class="caret"></span></a>
-   <div class="box-shadow">
-    <ul><li title="Upgrade"><a href="/analytics.html">Upgrade</a></li>
-</ul>
-   </div>
-  </li>
-  <li title="Hashtag Articles"><a href="/articles/">Articles <span class="caret"></span></a>
-   <div class="box-shadow subLinks">
-    <ul><li title="Business Articles"><a href="/business/">Business</a></li>
-<li title="Entertainment Articles"><a href="/entertainment/">Entertainment</a></li>
-<li title="Featured Articles"><a href="/featured/">Featured</a></li>
-<li title="Government Articles"><a href="/government/">Government</a></li>
-<li title="How-To Articles"><a href="/how-to/">How-To</a></li>
-<li title="News Articles"><a href="/news/">News</a></li>
-<li title="Platform Articles"><a href="/platforms/">Platforms</a></li>
-<li title="Religious Articles"><a href="/religion/">Religion</a></li>
-<li title="Research Articles"><a href="/research/">Research</a></li>
-</ul>
-   </div>
-  </li>
-  <li title="Hashtag Dictionary Definitions"><a href="/definition/">Dictionary <span class="caret"></span></a>
-   <div class="box-shadow subLinks">
-    <ul><li title="Hashtag Dictionary Definitions"><a href="/definition/">Show Definitions</a></li>
-<li title="Add Definition"><a href="/definition/add/">Add Definition</a></li>
-<li title="What's New"><a href="/hashtag-definitions-whats-new/">Recently Added</a></li>
-</ul>
-   </div>
-  </li>
-  <li title="Support"><a href="javascript:void(0);" onclick="openModal('contact',770,'1');">Support <span class="caret"></span></a>
-   <div class="box-shadow">
-    <ul><li title="How-To Articles"><a href="/how-to/">How-To</a></li>
-<li title="Contact"><a href="/contact/">Contact Us</a></li>
-</ul>
-   </div>
-  </li>
-  <li title="Profile"><a href="/subscription/">Profile <span class="caret"></span></a>
-   <div class="box-shadow">
-    <ul><li><a href="/profile/login/?from=B">Log In</a></li><li><a href="/profile/register/">Register</a></li></ul>
-   </div>
-  </li>
-   </ul></nav></div>
-   <div class="clr"></div>
-  </div>
- </div>
- <div class="content">
-  <h1 class="bitter shadow white " style="position:relative;">analytics for: #shib</h1>
-<div id="chartDiv" style="width: 1079px;">
-<a class="myButtonLinkD hidden-mobile" style="position:relative; z-index:9999;" href="/definition/shib/">Definitions View</a><button class="shiny-blue show-mobile" onclick="window.location='/definition/shib/'">Definitions View</button><form name="addview" id="addview" action="javascript:void(0);" onsubmit="javascript:void(0);" style="margin-top:10px;">
- <h3 class="white hidden-mobile" style="width:85%;">Hashtag analytics for #shib are presented below for the past 24 hours using Twitter's streaming API for a 1% sample of all tweets. <button class="shiny-blue" type="button" onclick="document.location.href='/analytics.html';">Upgrade Your Account</button> to view more detailed information.</h3>
-<div class="clr"></div>
-<h1 class="bitter shadow white hdr-margin">#shib 24-hour Trend Graph</h1><center><div id="chartContainter" class="black bitter rad3 bg-white w100" style="padding:4px 0;">
-<div id="chartWM" style="opacity: 0.15; position: absolute; margin-left: 389.5px; margin-top: 130px;"><img src="/images/hashtags_logo.png" class="bg-blue" width="300"></div>
-<div class="floatL" style="margin-left:10px;"><h2 class="grey bitter floatL">Estimated Tweets per Hour (based on 1% Sample)</h2></div><div class="floatR" style="font-size:16px; color:#000; margin-right:8px;">Timezone: America/Chicago</div>
-<div class="clr"></div>
-<div id="timelineDiv" style="width: 1079px;"><div style="position: relative;"><div style="position: relative; width: 1079px; height: 400px;" dir="ltr"><div style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;" aria-label="A chart."><svg width="1079" height="400" style="overflow: hidden;" aria-label="A chart."><defs id="_ABSTRACT_RENDERER_ID_4"><pattern patternUnits="userSpaceOnUse" x="0" y="0" width="4" height="4" viewBox="0 0 4 4" id="_ABSTRACT_RENDERER_ID_5"><rect x="0" y="0" width="4" height="4" fill="#ffffff"></rect><g stroke="#3366cc" stroke-linecap="square"><line x1="2" y1="0" x2="4" y2="2" stroke-width="2"></line><line x1="0" y1="2" x2="2" y2="4" stroke-width="2"></line></g></pattern><clipPath id="_ABSTRACT_RENDERER_ID_6"><rect x="81" y="40" width="917" height="247"></rect></clipPath></defs><g><rect x="464" y="348" width="151" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g column-id="shib"><rect x="464" y="348" width="151" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="497" y="359.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">#shib (estimated)</text></g><path d="M464,355L492,355" stroke="#3366cc" stroke-width="3" fill-opacity="1" fill="none"></path><circle cx="478" cy="355" r="4" stroke="none" stroke-width="0" fill="#3366cc"></circle></g></g><g><rect x="81" y="40" width="917" height="247" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g clip-path="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_6)"><g><rect x="81" y="286" width="917" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="81" y="225" width="917" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="81" y="163" width="917" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="81" y="102" width="917" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="81" y="40" width="917" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="81" y="255" width="917" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="81" y="194" width="917" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="81" y="132" width="917" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="81" y="71" width="917" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect></g><g><rect x="81" y="286" width="917" height="1" stroke="none" stroke-width="0" fill="#333333"></rect></g><g><path d="M100.58333333333333,163.5L138.75,157.35L176.91666666666666,163.5L215.08333333333331,181.95L253.25,95.85L291.41666666666663,194.25L329.5833333333333,151.2L367.75,231.15L405.91666666666663,175.8L444.0833333333333,126.6L482.25,151.2L520.4166666666666,138.9L558.5833333333333,175.8L596.75,95.85L634.9166666666666,151.2L673.0833333333333,188.1L711.25,188.1L749.4166666666666,138.9L787.5833333333333,126.6L825.75,181.95L863.9166666666666,200.4L902.0833333333333,169.65L940.25,126.6L978.4166666666666,200.4" stroke="#3366cc" stroke-width="3" stroke-dasharray="12,3" fill-opacity="1" fill="none"></path></g></g><g><circle cx="100.58333333333333" cy="163.5" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="138.75" cy="157.35" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="176.91666666666666" cy="163.5" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="215.08333333333331" cy="181.95" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="253.25" cy="95.85" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="291.41666666666663" cy="194.25" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="329.5833333333333" cy="151.2" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="367.75" cy="231.15" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="405.91666666666663" cy="175.8" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="444.0833333333333" cy="126.6" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="482.25" cy="151.2" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="520.4166666666666" cy="138.9" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="558.5833333333333" cy="175.8" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="596.75" cy="95.85" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="634.9166666666666" cy="151.2" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="673.0833333333333" cy="188.1" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="711.25" cy="188.1" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="749.4166666666666" cy="138.9" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="787.5833333333333" cy="126.6" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="825.75" cy="181.95" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="863.9166666666666" cy="200.4" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="902.0833333333333" cy="169.65" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="940.25" cy="126.6" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle><circle cx="978.4166666666666" cy="200.4" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"></circle></g><g><g><text text-anchor="middle" x="100.58333333333333" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">9:00 pm</text></g><g><text text-anchor="middle" x="176.91666666666666" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">11:00 pm</text></g><g><text text-anchor="middle" x="253.25" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">1:00 am</text></g><g><text text-anchor="middle" x="329.5833333333333" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">3:00 am</text></g><g><text text-anchor="middle" x="405.91666666666663" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">5:00 am</text></g><g><text text-anchor="middle" x="482.25" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">7:00 am</text></g><g><text text-anchor="middle" x="558.5833333333333" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">9:00 am</text></g><g><text text-anchor="middle" x="634.9166666666666" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">11:00 am</text></g><g><text text-anchor="middle" x="711.25" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">1:00 pm</text></g><g><text text-anchor="middle" x="787.5833333333333" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">3:00 pm</text></g><g><text text-anchor="middle" x="863.9166666666666" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">5:00 pm</text></g><g><text text-anchor="middle" x="940.25" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">7:00 pm</text></g><g><text text-anchor="end" x="67" y="291.4" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#444444">0</text></g><g><text text-anchor="end" x="67" y="229.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#444444">1,000</text></g><g><text text-anchor="end" x="67" y="168.4" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#444444">2,000</text></g><g><text text-anchor="end" x="67" y="106.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#444444">3,000</text></g><g><text text-anchor="end" x="67" y="45.4" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#444444">4,000</text></g></g></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>Time</th><th>#shib (estimated)</th></tr></thead><tbody><tr><td> 9:00 pm</td><td>2,000</td></tr><tr><td>10:00 pm</td><td>2,100</td></tr><tr><td>11:00 pm</td><td>2,000</td></tr><tr><td>12:00 am</td><td>1,700</td></tr><tr><td> 1:00 am</td><td>3,100</td></tr><tr><td> 2:00 am</td><td>1,500</td></tr><tr><td> 3:00 am</td><td>2,200</td></tr><tr><td> 4:00 am</td><td>900</td></tr><tr><td> 5:00 am</td><td>1,800</td></tr><tr><td> 6:00 am</td><td>2,600</td></tr><tr><td> 7:00 am</td><td>2,200</td></tr><tr><td> 8:00 am</td><td>2,400</td></tr><tr><td> 9:00 am</td><td>1,800</td></tr><tr><td>10:00 am</td><td>3,100</td></tr><tr><td>11:00 am</td><td>2,200</td></tr><tr><td>12:00 pm</td><td>1,600</td></tr><tr><td> 1:00 pm</td><td>1,600</td></tr><tr><td> 2:00 pm</td><td>2,400</td></tr><tr><td> 3:00 pm</td><td>2,600</td></tr><tr><td> 4:00 pm</td><td>1,700</td></tr><tr><td> 5:00 pm</td><td>1,400</td></tr><tr><td> 6:00 pm</td><td>1,900</td></tr><tr><td> 7:00 pm</td><td>2,600</td></tr><tr><td> 8:00 pm</td><td>1,400</td></tr></tbody></table></div></div></div><div style="display: none; position: absolute; top: 410px; left: 1089px; white-space: nowrap; font-family: bitter; font-size: 14px;" aria-hidden="true">#shib (estimated)</div><div></div></div></div>
-<div class="clr"></div>
-</div></center>
-<div class="clr"></div>
-<div id="loadingDiv" class="hdn"><div style="width:100%;height:400px;background-color:#fff;"><center><img src="/images/loading4.gif"></center></div></div>
-<div class="clr"></div>
-<input type="hidden" name="rp" value="1d"><input type="hidden" name="rc" value="Line"><input type="hidden" name="rm" value="Tweets"><input type="hidden" name="so" value="1"><input type="hidden" name="viewArr" value="shib"><input type="hidden" name="trackArr" value=""><input type="hidden" name="rn" value=""><input type="hidden" name="begin_dt" value=""><input type="hidden" name="end_dt" value=""></form>
 </div>
-<div class="clr"></div>
-<div class="bg-darkgrey w100 marginT8 lightgrey rad3"><div class="pad10"><h2 class="no-margin">Expand Your Analytics View</h2><p class="smaller"><a href="/analytics.html" class="blue">TRACK YOUR ANALYTICS</a> for up to 12 months, and with 100% accuracy!</p><p class="smaller">The past 24 hours just isn't long enough. Upgrade today and track everything, including usage, exposure, who your most prolific users are, and what other hashtags you should be targeting.</p><button class="shiny-blue" type="button" onclick="document.location.href='/analytics.html';">Expand Your Analytics</button></div></div>
-<div class="clr"></div>
-<div style="margin-top:8px;padding:8px;min-height:50px;background-color:#fff;position:relative;" class="rad3"><ul class="no-bullet" style="margin-top:15px;">
-<li name="htLI" id="htLI0" class="inline bitter pointer" style="background-color:#3366cc;font-weight:bold;color:white; font-size:30px;opacity:1;filter:alpha(opacity:100);" onclick="addlAnalytics('0','shib','sample');">shib</li>
-</ul><div style="position:relative;"><div class="clr"></div><div name="htDiv" id="htDiv0" style="border:6px solid #3366cc; margin-top:10px; padding:4px; -moz-border-radius:0.4em; border-radius:0.4em; -webkit-border-radius:0.4em;" class="blk">
-  <div class="bitter" style="margin:4px;"><h2 style="color:#3366cc;">definition</h2><div class="larger" style="border:1px dashed #3366cc; padding:4px; -moz-border-radius:0.2em; border-radius:0.2em; -webkit-border-radius:0.2em;" id="defnDiv0">#shib:&nbsp;<a target="_parent" href="/definition/add/?hashtag=shib">Add a definition for #shib.</a></div></div>
-  <div id="htDivContent" class="floatL" style="min-height:835px;">
-    <div>      <div class="bitter" style="margin:4px; width:auto; overflow:hidden;"><h2 style="color:#3366cc;">prolific users</h2><div style="border:1px dashed #3366cc; -moz-border-radius:0.2em; border-radius:0.2em; -webkit-border-radius:0.2em;" id="prolificDiv0">
-<div class="floatL" style="float:left; width:170px; height:100px; padding:4px; border-right:1px dashed #ccc; border-bottom:1px dashed #ccc;"><div class="tn"><a href="http://twitter.com/ihsotas0" title="view Defido fan's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1444818435490332672/TT5OoTnx_normal.jpg" alt="Defido fan's thumbnail " width="48" height="48" border="0"></a></div>
-<div class="text">
-<div><b>Defido fan</b><div class="sn">@ihsotas0</div>
-</div>
-<div class="stats">updates: 18,043<br>followers: 346</div>
-</div>
-</div>
+<div class="content">
+    <h1 class="bitter shadow white " style="position:relative;">analytics for: #shib</h1>
+    <div id="chartDiv" style="width: 1081px;">
+        <a class="myButtonLinkD hidden-mobile" style="position:relative; z-index:9999;" href="/definition/shib/">Definitions View</a><button class="shiny-blue show-mobile" onclick="window.location='/definition/shib/'">Definitions View</button><form name="addview" id="addview" action="javascript:void(0);" onsubmit="javascript:void(0);" style="margin-top:10px;">
+        <h3 class="white hidden-mobile" style="width:85%;">Hashtag analytics for #shib are presented below for the past 24 hours using Twitter's streaming API for a 1% sample of all tweets. <button class="shiny-blue" type="button" onclick="document.location.href='/analytics.html';">Upgrade Your Account</button> to view more detailed information.</h3>
+        <div class="clr"></div>
+        <h1 class="bitter shadow white hdr-margin">#shib 24-hour Trend Graph</h1><center><div id="chartContainter" class="black bitter rad3 bg-white w100" style="padding:4px 0;">
+        <div id="chartWM" style="opacity: 0.15; position: absolute; margin-left: 390.5px; margin-top: 130px;"><img src="/images/hashtags_logo.png" class="bg-blue" width="300"></div>
+        <div class="floatL" style="margin-left:10px;"><h2 class="grey bitter floatL">Estimated Tweets per Hour (based on 1% Sample)</h2></div><div class="floatR" style="font-size:16px; color:#000; margin-right:8px;">Timezone: America/Chicago</div>
+        <div class="clr"></div>
+        <div id="timelineDiv" style="width: 1081px;"><div style="position: relative;"><div style="position: relative; width: 1081px; height: 400px;" dir="ltr"><div style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;" aria-label="A chart."><svg width="1081" height="400" style="overflow: hidden;" aria-label="A chart."><defs id="_ABSTRACT_RENDERER_ID_3"><pattern patternUnits="userSpaceOnUse" x="0" y="0" width="4" height="4" viewBox="0 0 4 4" id="_ABSTRACT_RENDERER_ID_4"><rect x="0" y="0" width="4" height="4" fill="#ffffff"></rect><g stroke="#3366cc" stroke-linecap="square"><line x1="2" y1="0" x2="4" y2="2" stroke-width="2"></line><line x1="0" y1="2" x2="2" y2="4" stroke-width="2"></line></g></pattern><clipPath id="_ABSTRACT_RENDERER_ID_5"><rect x="81" y="40" width="919" height="247"></rect></clipPath></defs><g><rect x="465" y="348" width="151" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g column-id="shib"><rect x="465" y="348" width="151" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="498" y="359.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">#shib (estimated)</text></g><path d="M465,355L493,355" stroke="#3366cc" stroke-width="3" fill-opacity="1" fill="none"></path><circle cx="479" cy="355" r="4" stroke="none" stroke-width="0" fill="#3366cc"></circle></g></g><g><rect x="81" y="40" width="919" height="247" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g clip-path="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_5)"><g><rect x="81" y="286" width="919" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="81" y="225" width="919" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="81" y="163" width="919" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="81" y="102" width="919" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="81" y="40" width="919" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="81" y="255" width="919" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="81" y="194" width="919" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="81" y="132" width="919" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="81" y="71" width="919" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect></g><g><rect x="81" y="286" width="919" height="1" stroke="none" stroke-width="0" fill="#333333"></rect></g><g><path d="M100.625,95.85L138.875,151.2L177.125,188.1L215.375,188.1L253.625,138.9L291.875,126.6L330.125,181.95L368.375,200.4L406.625,169.65L444.875,126.6L483.125,200.4L521.375,175.8L559.625,120.44999999999999L597.875,169.65L636.125,237.3L674.375,218.85L712.625,206.55L750.875,261.9L789.125,206.55L827.375,200.4L865.625,206.55L903.875,188.1L942.125,194.25L980.375,268.05" stroke="#3366cc" stroke-width="3" stroke-dasharray="12,3" fill-opacity="1" fill="none"></path></g></g><g><circle cx="100.625" cy="95.85" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="138.875" cy="151.2" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="177.125" cy="188.1" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="215.375" cy="188.1" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="253.625" cy="138.9" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="291.875" cy="126.6" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="330.125" cy="181.95" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="368.375" cy="200.4" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="406.625" cy="169.65" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="444.875" cy="126.6" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="483.125" cy="200.4" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="521.375" cy="175.8" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="559.625" cy="120.44999999999999" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="597.875" cy="169.65" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="636.125" cy="237.3" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="674.375" cy="218.85" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="712.625" cy="206.55" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="750.875" cy="261.9" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="789.125" cy="206.55" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="827.375" cy="200.4" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="865.625" cy="206.55" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="903.875" cy="188.1" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="942.125" cy="194.25" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle><circle cx="980.375" cy="268.05" r="3.5" stroke="#3366cc" stroke-width="1" fill="url(https://www.hashtags.org/analytics/shib/#_ABSTRACT_RENDERER_ID_4)"></circle></g><g><g><text text-anchor="middle" x="100.625" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">10:00 am</text></g><g><text text-anchor="middle" x="177.125" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">12:00 pm</text></g><g><text text-anchor="middle" x="253.625" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">2:00 pm</text></g><g><text text-anchor="middle" x="330.125" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">4:00 pm</text></g><g><text text-anchor="middle" x="406.625" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">6:00 pm</text></g><g><text text-anchor="middle" x="483.125" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">8:00 pm</text></g><g><text text-anchor="middle" x="559.625" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">10:00 pm</text></g><g><text text-anchor="middle" x="636.125" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">12:00 am</text></g><g><text text-anchor="middle" x="712.625" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">2:00 am</text></g><g><text text-anchor="middle" x="789.125" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">4:00 am</text></g><g><text text-anchor="middle" x="865.625" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">6:00 am</text></g><g><text text-anchor="middle" x="942.125" y="307.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#222222">8:00 am</text></g><g><text text-anchor="end" x="67" y="291.4" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#444444">0</text></g><g><text text-anchor="end" x="67" y="229.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#444444">1,000</text></g><g><text text-anchor="end" x="67" y="168.4" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#444444">2,000</text></g><g><text text-anchor="end" x="67" y="106.9" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#444444">3,000</text></g><g><text text-anchor="end" x="67" y="45.4" font-family="bitter" font-size="14" stroke="none" stroke-width="0" fill="#444444">4,000</text></g></g></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>Time</th><th>#shib (estimated)</th></tr></thead><tbody><tr><td>10:00 am</td><td>3,100</td></tr><tr><td>11:00 am</td><td>2,200</td></tr><tr><td>12:00 pm</td><td>1,600</td></tr><tr><td> 1:00 pm</td><td>1,600</td></tr><tr><td> 2:00 pm</td><td>2,400</td></tr><tr><td> 3:00 pm</td><td>2,600</td></tr><tr><td> 4:00 pm</td><td>1,700</td></tr><tr><td> 5:00 pm</td><td>1,400</td></tr><tr><td> 6:00 pm</td><td>1,900</td></tr><tr><td> 7:00 pm</td><td>2,600</td></tr><tr><td> 8:00 pm</td><td>1,400</td></tr><tr><td> 9:00 pm</td><td>1,800</td></tr><tr><td>10:00 pm</td><td>2,700</td></tr><tr><td>11:00 pm</td><td>1,900</td></tr><tr><td>12:00 am</td><td>800</td></tr><tr><td> 1:00 am</td><td>1,100</td></tr><tr><td> 2:00 am</td><td>1,300</td></tr><tr><td> 3:00 am</td><td>400</td></tr><tr><td> 4:00 am</td><td>1,300</td></tr><tr><td> 5:00 am</td><td>1,400</td></tr><tr><td> 6:00 am</td><td>1,300</td></tr><tr><td> 7:00 am</td><td>1,600</td></tr><tr><td> 8:00 am</td><td>1,500</td></tr><tr><td> 9:00 am</td><td>300</td></tr></tbody></table></div></div></div><div style="display: none; position: absolute; top: 410px; left: 1091px; white-space: nowrap; font-family: bitter; font-size: 14px;" aria-hidden="true">#shib (estimated)</div><div></div></div></div>
+        <div class="clr"></div>
+    </div></center>
+        <div class="clr"></div>
+        <div id="loadingDiv" class="hdn"><div style="width:100%;height:400px;background-color:#fff;"><center><img src="/images/loading4.gif"></center></div></div>
+        <div class="clr"></div>
+        <input type="hidden" name="rp" value="1d"><input type="hidden" name="rc" value="Line"><input type="hidden" name="rm" value="Tweets"><input type="hidden" name="so" value="1"><input type="hidden" name="viewArr" value="shib"><input type="hidden" name="trackArr" value=""><input type="hidden" name="rn" value=""><input type="hidden" name="begin_dt" value=""><input type="hidden" name="end_dt" value=""></form>
+    </div>
+    <div class="clr"></div>
+    <div class="bg-darkgrey w100 marginT8 lightgrey rad3"><div class="pad10"><h2 class="no-margin">Expand Your Analytics View</h2><p class="smaller"><a href="/analytics.html" class="blue">TRACK YOUR ANALYTICS</a> for up to 12 months, and with 100% accuracy!</p><p class="smaller">The past 24 hours just isn't long enough. Upgrade today and track everything, including usage, exposure, who your most prolific users are, and what other hashtags you should be targeting.</p><button class="shiny-blue" type="button" onclick="document.location.href='/analytics.html';">Expand Your Analytics</button></div></div>
+    <div class="clr"></div>
+    <div style="margin-top:8px;padding:8px;min-height:50px;background-color:#fff;position:relative;" class="rad3"><ul class="no-bullet" style="margin-top:15px;">
+        <li name="htLI" id="htLI0" class="inline bitter pointer" style="background-color:#3366cc;font-weight:bold;color:white; font-size:30px;opacity:1;filter:alpha(opacity:100);" onclick="addlAnalytics('0','shib','sample');">shib</li>
+    </ul><div style="position:relative;"><div class="clr"></div><div name="htDiv" id="htDiv0" style="border:6px solid #3366cc; margin-top:10px; padding:4px; -moz-border-radius:0.4em; border-radius:0.4em; -webkit-border-radius:0.4em;" class="blk">
+        <div class="bitter" style="margin:4px;"><h2 style="color:#3366cc;">definition</h2><div class="larger" style="border:1px dashed #3366cc; padding:4px; -moz-border-radius:0.2em; border-radius:0.2em; -webkit-border-radius:0.2em;" id="defnDiv0">#shib:&nbsp;<a target="_parent" href="/definition/add/?hashtag=shib">Add a definition for #shib.</a></div></div>
+        <div id="htDivContent" class="floatL" style="min-height:835px;">
+            <div>      <div class="bitter" style="margin:4px; width:auto; overflow:hidden;"><h2 style="color:#3366cc;">prolific users</h2><div style="border:1px dashed #3366cc; -moz-border-radius:0.2em; border-radius:0.2em; -webkit-border-radius:0.2em;" id="prolificDiv0">
+                <div class="floatL" style="float:left; width:170px; height:100px; padding:4px; border-right:1px dashed #ccc; border-bottom:1px dashed #ccc;"><div class="tn"><a href="http://twitter.com/ihsotas0" title="view Defido fan's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1444818435490332672/TT5OoTnx_normal.jpg" alt="Defido fan's thumbnail " width="48" height="48" border="0"></a></div>
+                    <div class="text">
+                        <div><b>Defido fan</b><div class="sn">@ihsotas0</div>
+                        </div>
+                        <div class="stats">updates: 18,885<br>followers: 346</div>
+                    </div>
+                </div>
 
 
-<div class="floatL" style="float:left; width:170px; height:100px; padding:4px; border-right:1px dashed #ccc; border-bottom:1px dashed #ccc;"><div class="tn"><a href="http://twitter.com/ComfyKek" title="view Comfy Kek's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1447599943477182475/tqOApNiD_normal.jpg" alt="Comfy Kek's thumbnail " width="48" height="48" border="0"></a></div>
-<div class="text">
-<div><b>Comfy Kek</b><div class="sn">@ComfyKek</div>
-</div>
-<div class="stats">updates: 5,283<br>followers: 79</div>
-</div>
-</div>
+                <div class="floatL" style="float:left; width:170px; height:100px; padding:4px; border-right:1px dashed #ccc; border-bottom:1px dashed #ccc;"><div class="tn"><a href="http://twitter.com/alain_rago" title="view ARC's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1267627491939749888/rz2eok5-_normal.jpg" alt="ARC's thumbnail " width="48" height="48" border="0"></a></div>
+                    <div class="text">
+                        <div><b>ARC</b><div class="sn">@alain_rago</div>
+                        </div>
+                        <div class="stats">updates: 14,123<br>followers: 83</div>
+                    </div>
+                </div>
 
 
-<div class="floatL" style="float:left; width:170px; height:100px; padding:4px; border-right:1px dashed #ccc; border-bottom:1px dashed #ccc;"><div class="tn"><a href="http://twitter.com/Analistbitci" title="view AnalystMan🐋's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1446922791358447621/vIC-EaEM_normal.jpg" alt="AnalystMan🐋's thumbnail " width="48" height="48" border="0"></a></div>
-<div class="text">
-<div><b>AnalystMan🐋</b><div class="sn">@Analistbitci</div>
-</div>
-<div class="stats">updates: 1,342<br>followers: 17</div>
-</div>
-</div>
+                <div class="floatL" style="float:left; width:170px; height:100px; padding:4px; border-right:1px dashed #ccc; border-bottom:1px dashed #ccc;"><div class="tn"><a href="http://twitter.com/ComfyKek" title="view Comfy Kek's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1447599943477182475/tqOApNiD_normal.jpg" alt="Comfy Kek's thumbnail " width="48" height="48" border="0"></a></div>
+                    <div class="text">
+                        <div><b>Comfy Kek</b><div class="sn">@ComfyKek</div>
+                        </div>
+                        <div class="stats">updates: 5,283<br>followers: 79</div>
+                    </div>
+                </div>
 
 
-<div class="floatL" style="float:left; width:170px; height:100px; padding:4px; border-right:1px dashed #ccc; border-bottom:1px dashed #ccc;"><div class="tn"><a href="http://twitter.com/kawilsonoi" title="view K.A. Wilson (#SHIBARMY)'s twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1406719412019896331/KhgEWqkd_normal.jpg" alt="K.A. Wilson (#SHIBARMY)'s thumbnail " width="48" height="48" border="0"></a></div>
-<div class="text">
-<div><b>K.A. Wilson (#SHIBARMY)</b><div class="sn">@kawilsonoi</div>
-</div>
-<div class="stats">updates: 3,401<br>followers: 173</div>
-</div>
-</div>
+                <div class="floatL" style="float:left; width:170px; height:100px; padding:4px; border-right:1px dashed #ccc; border-bottom:1px dashed #ccc;"><div class="tn"><a href="http://twitter.com/Analistbitci" title="view AnalystMan🐋's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1446922791358447621/vIC-EaEM_normal.jpg" alt="AnalystMan🐋's thumbnail " width="48" height="48" border="0"></a></div>
+                    <div class="text">
+                        <div><b>AnalystMan🐋</b><div class="sn">@Analistbitci</div>
+                        </div>
+                        <div class="stats">updates: 1,342<br>followers: 17</div>
+                    </div>
+                </div>
 
 
-<div class="floatL" style="float:left; width:170px; height:100px; padding:4px; border-right:1px dashed #ccc; border-bottom:1px dashed #ccc;"><div class="tn"><a href="http://twitter.com/ErenArs28992770" title="view Eren Arslan's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1421237204123279368/OEMU8tmb_normal.jpg" alt="Eren Arslan's thumbnail " width="48" height="48" border="0"></a></div>
-<div class="text">
-<div><b>Eren Arslan</b><div class="sn">@ErenArs28992770</div>
-</div>
-<div class="stats">updates: 4,278<br>followers: 45</div>
-</div>
-</div>
+                <div class="floatL" style="float:left; width:170px; height:100px; padding:4px; border-right:1px dashed #ccc; border-bottom:1px dashed #ccc;"><div class="tn"><a href="http://twitter.com/kawilsonoi" title="view K.A. Wilson (#SHIBARMY)'s twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1406719412019896331/KhgEWqkd_normal.jpg" alt="K.A. Wilson (#SHIBARMY)'s thumbnail " width="48" height="48" border="0"></a></div>
+                    <div class="text">
+                        <div><b>K.A. Wilson (#SHIBARMY)</b><div class="sn">@kawilsonoi</div>
+                        </div>
+                        <div class="stats">updates: 3,664<br>followers: 173</div>
+                    </div>
+                </div>
 
 
-<div class="floatL" style="float:left; width:170px; height:100px; padding:4px; border-right:1px dashed #ccc; border-bottom:1px dashed #ccc;"><div class="tn"><a href="http://twitter.com/Cointuit" title="view LordCoin's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1441781201098862593/nTJjcivY_normal.jpg" alt="LordCoin's thumbnail " width="48" height="48" border="0"></a></div>
-<div class="text">
-<div><b>LordCoin</b><div class="sn">@Cointuit</div>
-</div>
-<div class="stats">updates: 4,778<br>followers: 211</div>
-</div>
-</div>
+                <div class="floatL" style="float:left; width:170px; height:100px; padding:4px; border-right:1px dashed #ccc; border-bottom:1px dashed #ccc;"><div class="tn"><a href="http://twitter.com/Cointuit" title="view LordCoin's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1441781201098862593/nTJjcivY_normal.jpg" alt="LordCoin's thumbnail " width="48" height="48" border="0"></a></div>
+                    <div class="text">
+                        <div><b>LordCoin</b><div class="sn">@Cointuit</div>
+                        </div>
+                        <div class="stats">updates: 4,778<br>followers: 211</div>
+                    </div>
+                </div>
 
 
-<div class="floatL" style="float:left; width:170px; height:100px; padding:4px; border-right:1px dashed #ccc; border-bottom:1px dashed #ccc;"><div class="tn"><a href="http://twitter.com/Ganee11014" title="view shib galaxy's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1446513524168015876/UsIniL1-_normal.jpg" alt="shib galaxy's thumbnail " width="48" height="48" border="0"></a></div>
-<div class="text">
-<div><b>shib galaxy</b><div class="sn">@Ganee11014</div>
-</div>
-<div class="stats">updates: 1,284<br>followers: 175</div>
-</div>
-</div>
+                <div class="floatL" style="float:left; width:170px; height:100px; padding:4px; border-right:1px dashed #ccc; border-bottom:1px dashed #ccc;"><div class="tn"><a href="http://twitter.com/DaveW47544437" title="view Dave W's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1446016067214536707/_IRfzPT7_normal.jpg" alt="Dave W's thumbnail " width="48" height="48" border="0"></a></div>
+                    <div class="text">
+                        <div><b>Dave W</b><div class="sn">@DaveW47544437</div>
+                        </div>
+                        <div class="stats">updates: 2,424<br>followers: 101</div>
+                    </div>
+                </div>
 
 
-<div class="floatL" style="float:left; width:170px; height:100px; padding:4px; border-right:1px dashed #ccc; border-bottom:1px dashed #ccc;"><div class="tn"><a href="http://twitter.com/ABDUSSAMET_66" title="view Abdussamet Korkmaz's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1284256580008120325/O0gwbd4k_normal.jpg" alt="Abdussamet Korkmaz's thumbnail " width="48" height="48" border="0"></a></div>
-<div class="text">
-<div><b>Abdussamet Korkmaz</b><div class="sn">@ABDUSSAMET_66</div>
-</div>
-<div class="stats">updates: 850<br>followers: 244</div>
-</div>
-</div>
+                <div class="floatL" style="float:left; width:170px; height:100px; padding:4px; border-right:1px dashed #ccc; border-bottom:1px dashed #ccc;"><div class="tn"><a href="http://twitter.com/ErenArs28992770" title="view Eren Arslan's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1421237204123279368/OEMU8tmb_normal.jpg" alt="Eren Arslan's thumbnail " width="48" height="48" border="0"></a></div>
+                    <div class="text">
+                        <div><b>Eren Arslan</b><div class="sn">@ErenArs28992770</div>
+                        </div>
+                        <div class="stats">updates: 4,278<br>followers: 45</div>
+                    </div>
+                </div>
 
 
-<div class="floatL" style="float:left; width:170px; height:100px; padding:4px; border-right:1px dashed #ccc; border-bottom:1px dashed #ccc;"><div class="tn"><a href="http://twitter.com/patrick_elpar" title="view Patrick Middleton's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1431731211207122946/QKrsV5JA_normal.jpg" alt="Patrick Middleton's thumbnail " width="48" height="48" border="0"></a></div>
-<div class="text">
-<div><b>Patrick Middleton</b><div class="sn">@patrick_elpar</div>
-</div>
-<div class="stats">updates: 10,224<br>followers: 136</div>
-</div>
-</div>
+                <div class="floatL" style="float:left; width:170px; height:100px; padding:4px; border-right:1px dashed #ccc; border-bottom:1px dashed #ccc;"><div class="tn"><a href="http://twitter.com/patrick_elpar" title="view Patrick Middleton's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1431731211207122946/QKrsV5JA_normal.jpg" alt="Patrick Middleton's thumbnail " width="48" height="48" border="0"></a></div>
+                    <div class="text">
+                        <div><b>Patrick Middleton</b><div class="sn">@patrick_elpar</div>
+                        </div>
+                        <div class="stats">updates: 10,452<br>followers: 138</div>
+                    </div>
+                </div>
 
 
-<div class="floatL" style="float:left; width:170px; height:100px; padding:4px; border-right:1px dashed #ccc; border-bottom:1px dashed #ccc;"><div class="tn"><a href="http://twitter.com/BezosCrypto" title="view Crypto Bezos's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1419199676369162251/rNdwTF7Z_normal.jpg" alt="Crypto Bezos's thumbnail " width="48" height="48" border="0"></a></div>
-<div class="text">
-<div><b>Crypto Bezos</b><div class="sn">@BezosCrypto</div>
+                <div class="floatL" style="float:left; width:170px; height:100px; padding:4px; border-right:1px dashed #ccc; border-bottom:1px dashed #ccc;"><div class="tn"><a href="http://twitter.com/SEYEDAM41537885" title="view SEYED AMIR's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1398974821430665217/dL6FSejv_normal.jpg" alt="SEYED AMIR's thumbnail " width="48" height="48" border="0"></a></div>
+                    <div class="text">
+                        <div><b>SEYED AMIR</b><div class="sn">@SEYEDAM41537885</div>
+                        </div>
+                        <div class="stats">updates: 6,769<br>followers: 44</div>
+                    </div>
+                </div>
+
+                <div class="clr"></div>
+            </div></div>
+                <div class="bitter"><h2 style="color:#3366cc;">recent tweets </h2><div id="recentMore0" class="floatR" style="position:relative;"></div><div style="border:1px dashed #3366cc; padding:4px; -moz-border-radius:0.2em; border-radius:0.2em; -webkit-border-radius:0.2em;" id="recentDiv0"><div id="recentDivNew0"></div>
+                    <div class="rcontent" id="tweet1448290503657762818">  <div class="rtn"><a href="http://twitter.com/diamanterus" title="view ₿itPetro ⭐️'s twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1398148345403789316/VqZ2JSPy_normal.jpg" alt="₿itPetro ⭐️'s thumbnail " width="48" height="48" border="0"></a></div>  <div class="rtext">    <div class="rsn"><b>₿itPetro ⭐️</b> <span class="rsn">@diamanterus</span><div class="rago">8 minutes ago</div></div>    <div class="rtweet">Shiba Inu  <a href="/analytics/SHIB/" target="_parent" class="hashtag">#SHIB</a> has been on a considerable run lately, but technicals show that the rally might cool off before eventually going forward.</div>  </div></div><div class="clr"></div><div class="rcontent" id="tweet1448289350215667715">  <div class="rtn"><a href="http://twitter.com/iamstevencooper" title="view Steven Cooper's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1324756048054505474/NTVcIUwv_normal.jpg" alt="Steven Cooper's thumbnail " width="48" height="48" border="0"></a></div>  <div class="rtext">    <div class="rsn"><b>Steven Cooper</b> <span class="rsn">@iamstevencooper</span><div class="rago">12 minutes ago</div></div>    <div class="rtweet">How is this not huge news? This should be posted everywhere! I’ll be burning some coins tomorrow.  <a href="/analytics/shib/" target="_parent" class="hashtag">#shib</a>  <a href="/analytics/SHIBARMY%E2%80%A6/" target="_parent" class="hashtag">#SHIBARMY…</a> <a href="https://t.co/VV3Qun76XP" target="twitter" rel="nofollow" class="link">https://t.co/VV3Qun76XP</a></div>    <div class="retweet">Retweeted by <a href="http://twitter.com/JonathanAmidul1" target="twitter">Jonathan Shekwoaga Amidullahi</a></div>  </div></div><div class="clr"></div><div class="rcontent" id="tweet1448288226138116098">  <div class="rtn"><a href="http://twitter.com/KingBTC8" title="view Decentralized Dizzle's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1446953720248344577/HHK22E-6_normal.jpg" alt="Decentralized Dizzle's thumbnail " width="48" height="48" border="0"></a></div>  <div class="rtext">    <div class="rsn"><b>Decentralized Dizzle</b> <span class="rsn">@KingBTC8</span><div class="rago">17 minutes ago</div></div>    <div class="rtweet">Newest creation for the $KAWA fam
+
+                        <a href="/analytics/KAWA/" target="_parent" class="hashtag">#KAWA</a>  <a href="/analytics/DOGE/" target="_parent" class="hashtag">#DOGE</a>  <a href="/analytics/SHIB/" target="_parent" class="hashtag">#SHIB</a>  <a href="/analytics/CATTOKEN/" target="_parent" class="hashtag">#CATTOKEN</a>  <a href="/analytics/CATECOIN/" target="_parent" class="hashtag">#CATECOIN</a>  <a href="/analytics/SAITAMA/" target="_parent" class="hashtag">#SAITAMA</a>  <a href="/analytics/FLOKI/" target="_parent" class="hashtag">#FLOKI</a>  <a href="/analytics/KUMA/" target="_parent" class="hashtag">#KUMA</a> <a href="https://t.co/vhnRcG1fXY" target="twitter" rel="nofollow" class="link">https://t.co/vhnRcG1fXY</a></div>    <div class="retweet">Retweeted by <a href="http://twitter.com/0xCryptodawg" target="twitter">0xCryptodawg</a></div>  </div></div><div class="clr"></div><div class="rcontent" id="tweet1448285722151198722">  <div class="rtn"><a href="http://twitter.com/PucheDios_" title="view Puche's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1319031677415493633/Fm3w3UR9_normal.jpg" alt="Puche's thumbnail " width="48" height="48" border="0"></a></div>  <div class="rtext">    <div class="rsn"><b>Puche</b> <span class="rsn">@PucheDios_</span><div class="rago">27 minutes ago</div></div>    <div class="rtweet"><a href="http://twitter.com/ShibaArchives" target="twitter" class="user">@ShibaArchives</a> <a href="http://twitter.com/RobinhoodApp" target="twitter" class="user">@RobinhoodApp</a> yes  <a href="/analytics/SHIB/" target="_parent" class="hashtag">#SHIB</a></div>  </div></div><div class="clr"></div><div class="rcontent" id="tweet1448285470467624961">  <div class="rtn"><a href="http://twitter.com/Sayembabu24" title="view Shib 0.001's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1429455650401046535/cK84TuiR_normal.jpg" alt="Shib 0.001's thumbnail " width="48" height="48" border="0"></a></div>  <div class="rtext">    <div class="rsn"><b>Shib 0.001</b> <span class="rsn">@Sayembabu24</span><div class="rago">28 minutes ago</div></div>    <div class="rtweet"> <a href="/analytics/SHIB/" target="_parent" class="hashtag">#SHIB</a> gunna pop off tomorrow with the  <a href="/analytics/SHIBOSHIS/" target="_parent" class="hashtag">#SHIBOSHIS</a> drop 🚀🚀</div>    <div class="retweet">Retweeted by <a href="http://twitter.com/kavisingh1988" target="twitter">Kavi Singh</a></div>  </div></div><div class="clr"></div><div class="rcontent" id="tweet1448284442854895619">  <div class="rtn"><a href="http://twitter.com/Yourpop8" title="view YourPop's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1405979029145014273/4e1x3n47_normal.jpg" alt="YourPop's thumbnail " width="48" height="48" border="0"></a></div>  <div class="rtext">    <div class="rsn"><b>YourPop</b> <span class="rsn">@Yourpop8</span><div class="rago">32 minutes ago</div></div>    <div class="rtweet">Goooooooooood morning to the  <a href="/analytics/SHIBARMY/" target="_parent" class="hashtag">#SHIBARMY</a>! We ate the dip nicely last night!  <a href="/analytics/SHIB/" target="_parent" class="hashtag">#SHIB</a> 🚀🚀🚀🚀🚀</div>    <div class="retweet">Retweeted by <a href="http://twitter.com/Swtch36848421" target="twitter">Sw@tch</a></div>  </div></div><div class="clr"></div><div class="rcontent" id="tweet1448284291872350218">  <div class="rtn"><a href="http://twitter.com/loveshibar" title="view Love Shiba R's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1436189626545238017/T2BFXduK_normal.jpg" alt="Love Shiba R's thumbnail " width="48" height="48" border="0"></a></div>  <div class="rtext">    <div class="rsn"><b>Love Shiba R</b> <span class="rsn">@loveshibar</span><div class="rago">32 minutes ago</div></div>    <div class="rtweet">おしぼり貰ったらSHIBが隠れてたんだよねw
+                        <a href="/analytics/%E3%82%A2%E3%83%A1%E3%83%96%E3%83%AD/" target="_parent" class="hashtag">#アメブロ</a>  <a href="/analytics/%E6%9A%97%E5%8F%B7%E9%80%9A%E8%B2%A8/" target="_parent" class="hashtag">#暗号通貨</a>  </analytics/SHIB/" target="_parent" class="hashtag">#SHIB</a>
+                        <a href="https://t.co/U7ZfoLsx5y" target="twitter" rel="nofollow" class="link">https://t.co/U7ZfoLsx5y</a></div>  </div></div><div class="clr"></div><div class="rcontent" id="tweet1448284249916731396">  <div class="rtn"><a href="http://twitter.com/ShytoshiKusama" title="view Shytoshi Kusama's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1448150571127607297/msBau39U_normal.jpg" alt="Shytoshi Kusama's thumbnail " width="48" height="48" border="0"></a></div>  <div class="rtext">    <div class="rsn"><b>Shytoshi Kusama</b> <span class="rsn">@ShytoshiKusama</span><div class="rago">32 minutes ago</div></div>    <div class="rtweet">Say it with me...
+
+                        SHIBOSHIS.
+                        <a href="/analytics/shib/" target="_parent" class="hashtag">#shib</a>  <a href="/analytics/SHIBARMY/" target="_parent" class="hashtag">#SHIBARMY</a>  <a href="/analytics/shibainu/" target="_parent" class="hashtag">#shibainu</a>  <a href="/analytics/Nofud/" target="_parent" class="hashtag">#Nofud</a>  <a href="/analytics/shibtoapenny/" target="_parent" class="hashtag">#shibtoapenny</a>  <a href="/analytics/LEASH/" target="_parent" class="hashtag">#LEASH</a>  <a href="/analytics/BONE/" target="_parent" class="hashtag">#BONE</a>
+
+                        <a href="https://t.co/jLoapDU8ql" target="twitter" rel="nofollow" class="link">https://t.co/jLoapDU8ql</a></div>    <div class="retweet">Retweeted by <a href="http://twitter.com/Ided42jtShibArm" target="twitter">Ided</a></div>  </div></div><div class="clr"></div><div class="rcontent" id="tweet1448281695589908483">  <div class="rtn"><a href="http://twitter.com/AmPatriot_Ron" title="view McMoon's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1424423094823882754/hxhm64W-_normal.jpg" alt="McMoon's thumbnail " width="48" height="48" border="0"></a></div>  <div class="rtext">    <div class="rsn"><b>McMoon</b> <span class="rsn">@AmPatriot_Ron</span><div class="rago">43 minutes ago</div></div>    <div class="rtweet"> <a href="/analytics/SAFEMOON/" target="_parent" class="hashtag">#SAFEMOON</a> is the best young crypto out there.  <a href="/analytics/SHIB/" target="_parent" class="hashtag">#SHIB</a> has no real utility, Safemoon is an innovator!
+
+                        Don't miss this… <a href="https://t.co/7FIHhTKgCQ" target="twitter" rel="nofollow" class="link">https://t.co/7FIHhTKgCQ</a></div>    <div class="retweet">Retweeted by <a href="http://twitter.com/AbrahamLogan10" target="twitter">Safemoon Rocket</a></div>  </div></div><div class="clr"></div><div class="rcontent" id="tweet1448278910567862276">  <div class="rtn"><a href="http://twitter.com/GeniusCrypto_" title="view Crypto Genius's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1406155925707239425/goFnf8Zu_normal.jpg" alt="Crypto Genius's thumbnail " width="48" height="48" border="0"></a></div>  <div class="rtext">    <div class="rsn"><b>Crypto Genius</b> <span class="rsn">@GeniusCrypto_</span><div class="rago">54 minutes ago</div></div>    <div class="rtweet">Am following all  <a href="/analytics/SHIB/" target="_parent" class="hashtag">#SHIB</a> holders who like/Retweet this!</div>    <div class="retweet">Retweeted by <a href="http://twitter.com/Sleepless9ight" target="twitter">Sleepless9ight</a></div>  </div></div><div class="clr"></div><div id="recentDivLast0" style="float:right;font-size:larger;margin:10px 5px;"><a href="/analytics.html" style="font-weight:bold; color:#4095D4;">Upgrade To View More</a></div><div class="clr"></div></div></div>
+                <div class="clr"></div>
+                <div class="bitter" style="margin:4px; width:auto;"><h2 style="color:#3366cc;">related hashtags</h2><center><div name="relatedDiv" style="border:1px dashed #3366cc; padding:4px; -moz-border-radius:0.2em; border-radius:0.2em; -webkit-border-radius:0.2em;" id="relatedDiv0"><div style="position: relative;"><div style="position: relative; width: 500px; height: 500px;" dir="ltr"><div style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;" aria-label="A chart."><svg width="500" height="500" style="overflow: hidden;" aria-label="A chart."><defs id="_ABSTRACT_RENDERER_ID_6"></defs><rect x="0" y="0" width="500" height="500" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><rect x="328" y="128" width="162" height="244" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g column-id="Upgrade To View"><rect x="328" y="128" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="139.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">#Upgrade To View</text></g><circle cx="334.5" cy="134.5" r="6.5" stroke="none" stroke-width="0" fill="#3366cc"></circle></g><g column-id="Upgrade To View"><rect x="328" y="149" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="160.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">#Upgrade To View</text></g><circle cx="334.5" cy="155.5" r="6.5" stroke="none" stroke-width="0" fill="#dc3912"></circle></g><g column-id="Upgrade To View"><rect x="328" y="170" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="181.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">#Upgrade To View</text></g><circle cx="334.5" cy="176.5" r="6.5" stroke="none" stroke-width="0" fill="#ff9900"></circle></g><g column-id="Upgrade To View"><rect x="328" y="191" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="202.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">#Upgrade To View</text></g><circle cx="334.5" cy="197.5" r="6.5" stroke="none" stroke-width="0" fill="#109618"></circle></g><g column-id="Upgrade To View"><rect x="328" y="212" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="223.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">#Upgrade To View</text></g><circle cx="334.5" cy="218.5" r="6.5" stroke="none" stroke-width="0" fill="#990099"></circle></g><g column-id="shibaswap"><rect x="328" y="233" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="244.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">#shibaswap</text></g><circle cx="334.5" cy="239.5" r="6.5" stroke="none" stroke-width="0" fill="#0099c6"></circle></g><g column-id="nft"><rect x="328" y="254" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="265.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">#nft</text></g><circle cx="334.5" cy="260.5" r="6.5" stroke="none" stroke-width="0" fill="#dd4477"></circle></g><g column-id="gamefi"><rect x="328" y="275" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="286.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">#gamefi</text></g><circle cx="334.5" cy="281.5" r="6.5" stroke="none" stroke-width="0" fill="#66aa00"></circle></g><g column-id="airdrop"><rect x="328" y="296" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="307.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">#airdrop</text></g><circle cx="334.5" cy="302.5" r="6.5" stroke="none" stroke-width="0" fill="#b82e2e"></circle></g><g column-id="pancakeswap"><rect x="328" y="317" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="328.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">#pancakeswap</text></g><circle cx="334.5" cy="323.5" r="6.5" stroke="none" stroke-width="0" fill="#316395"></circle></g><g column-id="raca"><rect x="328" y="338" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="349.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">#raca</text></g><circle cx="334.5" cy="344.5" r="6.5" stroke="none" stroke-width="0" fill="#994499"></circle></g><g column-id="ALL OTHERS"><rect x="328" y="359" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="370.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">ALL OTHERS</text></g><circle cx="334.5" cy="365.5" r="6.5" stroke="none" stroke-width="0" fill="#22aa99"></circle></g></g><g><path d="M159,236.2L159,265.8L238.20825061908675,165.78383159872138L238.20825061908675,136.18383159872138" stroke="#264d99" stroke-width="1" fill="#264d99"></path><path d="M159,236.2L159,117.79999999999998A148,118.4,0,0,1,238.20825061908675,136.18383159872138L159,236.2A0,0,0,0,0,159,236.2" stroke="#3366cc" stroke-width="1" fill="#3366cc"></path><text text-anchor="start" x="184.64714034116392" y="147.5107839956367" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#ffffff">9%</text></g><g><path d="M159,236.2L159,265.8L278.2596679833808,195.68634784012445L278.2596679833808,166.08634784012446" stroke="#a52b0e" stroke-width="1" fill="#a52b0e"></path><path d="M159,236.2L238.20825061908675,136.18383159872138A148,118.4,0,0,1,278.2596679833808,166.08634784012446L159,236.2A0,0,0,0,0,159,236.2" stroke="#dc3912" stroke-width="1" fill="#dc3912"></path><text text-anchor="start" x="225.64479765768408" y="172.86596232081206" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#ffffff">5.9%</text></g><g><path d="M159,236.2L159,265.8L298.0627402340741,225.27895931373584L298.0627402340741,195.67895931373585" stroke="#bf7300" stroke-width="1" fill="#bf7300"></path><path d="M159,236.2L278.2596679833808,166.08634784012446A148,118.4,0,0,1,298.0627402340741,195.67895931373585L159,236.2A0,0,0,0,0,159,236.2" stroke="#ff9900" stroke-width="1" fill="#ff9900"></path></g><g><path d="M159,236.2L159,265.8L305.5491238359137,249.26196039814076L305.5491238359137,219.66196039814076" stroke="#0c7112" stroke-width="1" fill="#0c7112"></path><path d="M159,236.2L298.0627402340741,195.67895931373585A148,118.4,0,0,1,305.5491238359137,219.66196039814076L159,236.2A0,0,0,0,0,159,236.2" stroke="#109618" stroke-width="1" fill="#109618"></path></g><g><path d="M307,236.2L307,265.8A148,118.4,0,0,1,306.6889982540929,273.4716535772694L306.6889982540929,243.8716535772694A148,118.4,0,0,0,307,236.2" stroke="#730073" stroke-width="1" fill="#730073"></path><path d="M159,236.2L159,265.8L306.6889982540929,273.4716535772694L306.6889982540929,243.8716535772694" stroke="#730073" stroke-width="1" fill="#730073"></path><path d="M159,236.2L305.5491238359137,219.66196039814076A148,118.4,0,0,1,306.6889982540929,243.8716535772694L159,236.2A0,0,0,0,0,159,236.2" stroke="#990099" stroke-width="1" fill="#990099"></path></g><g><path d="M306.6889982540929,243.8716535772694L306.6889982540929,273.4716535772694A148,118.4,0,0,1,302.43918712334994,294.96655177307167L302.43918712334994,265.36655177307165A148,118.4,0,0,0,306.6889982540929,243.8716535772694" stroke="#007395" stroke-width="1" fill="#007395"></path><path d="M159,236.2L159,265.8L302.43918712334994,294.96655177307167L302.43918712334994,265.36655177307165" stroke="#007395" stroke-width="1" fill="#007395"></path><path d="M159,236.2L306.6889982540929,243.8716535772694A148,118.4,0,0,1,302.43918712334994,265.36655177307165L159,236.2A0,0,0,0,0,159,236.2" stroke="#0099c6" stroke-width="1" fill="#0099c6"></path></g><g><path d="M302.43918712334994,265.3665517730717L302.43918712334994,294.9665517730717A148,118.4,0,0,1,293.8583702209884,314.575206694148L293.8583702209884,284.97520669414797A148,118.4,0,0,0,302.43918712334994,265.3665517730717" stroke="#a63359" stroke-width="1" fill="#a63359"></path><path d="M159,236.2L159,265.8L293.8583702209884,314.575206694148L293.8583702209884,284.97520669414797" stroke="#a63359" stroke-width="1" fill="#a63359"></path><path d="M159,236.2L302.43918712334994,265.3665517730717A148,118.4,0,0,1,293.8583702209884,284.97520669414797L159,236.2A0,0,0,0,0,159,236.2" stroke="#dd4477" stroke-width="1" fill="#dd4477"></path></g><g><path d="M293.8583702209884,284.97520669414797L293.8583702209884,314.575206694148A148,118.4,0,0,1,281.8205200753927,331.8623697953868L281.8205200753927,302.2623697953868A148,118.4,0,0,0,293.8583702209884,284.97520669414797" stroke="#4d8000" stroke-width="1" fill="#4d8000"></path><path d="M159,236.2L159,265.8L281.8205200753927,331.8623697953868L281.8205200753927,302.2623697953868" stroke="#4d8000" stroke-width="1" fill="#4d8000"></path><path d="M159,236.2L293.8583702209884,284.97520669414797A148,118.4,0,0,1,281.8205200753927,302.2623697953868L159,236.2A0,0,0,0,0,159,236.2" stroke="#66aa00" stroke-width="1" fill="#66aa00"></path></g><g><path d="M281.8205200753928,302.26236979538675L281.8205200753928,331.86236979538677A148,118.4,0,0,1,266.777101505803,346.9442030600154L266.777101505803,317.3442030600154A148,118.4,0,0,0,281.8205200753928,302.26236979538675" stroke="#8a2323" stroke-width="1" fill="#8a2323"></path><path d="M159,236.2L159,265.8L266.777101505803,346.9442030600154L266.777101505803,317.3442030600154" stroke="#8a2323" stroke-width="1" fill="#8a2323"></path><path d="M159,236.2L281.8205200753928,302.26236979538675A148,118.4,0,0,1,266.777101505803,317.3442030600154L159,236.2A0,0,0,0,0,159,236.2" stroke="#b82e2e" stroke-width="1" fill="#b82e2e"></path></g><g><path d="M266.777101505803,317.3442030600154L266.777101505803,346.9442030600154A148,118.4,0,0,1,249.36251435448142,359.5694739225039L249.36251435448142,329.9694739225039A148,118.4,0,0,0,266.777101505803,317.3442030600154" stroke="#254a70" stroke-width="1" fill="#254a70"></path><path d="M159,236.2L159,265.8L249.36251435448142,359.5694739225039L249.36251435448142,329.9694739225039" stroke="#254a70" stroke-width="1" fill="#254a70"></path><path d="M159,236.2L266.777101505803,317.3442030600154A148,118.4,0,0,1,249.36251435448142,329.9694739225039L159,236.2A0,0,0,0,0,159,236.2" stroke="#316395" stroke-width="1" fill="#316395"></path></g><g><path d="M249.36251435448142,329.9694739225039L249.36251435448142,359.5694739225039A148,118.4,0,0,1,229.66936617433288,369.83027462278255L229.66936617433288,340.23027462278253A148,118.4,0,0,0,249.36251435448142,329.9694739225039" stroke="#733373" stroke-width="1" fill="#733373"></path><path d="M159,236.2L159,265.8L229.66936617433288,369.83027462278255L229.66936617433288,340.23027462278253" stroke="#733373" stroke-width="1" fill="#733373"></path><path d="M159,236.2L249.36251435448142,329.9694739225039A148,118.4,0,0,1,229.66936617433288,340.23027462278253L159,236.2A0,0,0,0,0,159,236.2" stroke="#994499" stroke-width="1" fill="#994499"></path></g><g><path d="M229.66936617433282,340.2302746227826L229.66936617433282,369.8302746227826A148,118.4,0,0,1,11,265.8L11,236.2A148,118.4,0,0,0,229.66936617433282,340.2302746227826" stroke="#1a8073" stroke-width="1" fill="#1a8073"></path><path d="M159,236.2L229.66936617433282,340.2302746227826A148,118.4,0,1,1,159,117.79999999999998L159,236.2A0,0,0,1,0,159,236.2" stroke="#22aa99" stroke-width="1" fill="#22aa99"></path><text text-anchor="start" x="29.136628907723193" y="263.04763940496514" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#ffffff">57.9%</text></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>Hashtag</th><th>Tweets</th></tr></thead><tbody><tr><td>#Upgrade To View</td><td>135</td></tr><tr><td>#Upgrade To View</td><td>89</td></tr><tr><td>#Upgrade To View</td><td>68</td></tr><tr><td>#Upgrade To View</td><td>50</td></tr><tr><td>#Upgrade To View</td><td>49</td></tr><tr><td>#shibaswap</td><td>44</td></tr><tr><td>#nft</td><td>42</td></tr><tr><td>#gamefi</td><td>40</td></tr><tr><td>#airdrop</td><td>39</td></tr><tr><td>#pancakeswap</td><td>38</td></tr><tr><td>#raca</td><td>38</td></tr><tr><td>ALL OTHERS</td><td>870</td></tr></tbody></table></div></div></div><div style="display: none; position: absolute; top: 510px; left: 510px; white-space: nowrap; font-family: bitter; font-size: 13px;" aria-hidden="true">ALL OTHERS</div><div></div></div></div></center></div>
+                <div class="clr"></div>
+            </div>    <div class="clr"></div>
+        </div>
+        <div class="clr"></div>
+    </div><div class="clr"></div>
+    </div></div>
+    <div class="clr"></div><div style="display:none; height:20px; background-color:white; margin:-10px 0 0 0;"><center><h4 class="bitter grey">analytics powered by <a href="http://logika.net" target="_blank" class="blue">LOGIKA Corporation®</a></h4></center></div><div class="clr mb"></div><a href="#" class="scrollup" title="back to top"></a>
 </div>
-<div class="stats">updates: 59,521<br>followers: 884</div>
+<div class="hidden-mobile foot bg-darkgrey w100 lightgrey" style="height:200px;box-shadow: 0px -4px 4px #333;">
+    <div id="footLeft" style="width:33%;float:left;height:100%;text-align:right;">
+        <p style="padding-bottom:10px;position:relative;left:-80px;">
+            <em style="font-weight:bold;position:relative;top:10px;">Featured Resources</em>
+        </p>
+        <div style="text-align:left;float:right;" class="smaller">
+            <a class="blue" href="/trending-on-twitter.html">Trending on Twitter</a><br>
+            <a class="blue" href="/platforms/twitter/basic-twitter-terms-you-must-know/">Twitter Terminology</a><br>
+            <a class="blue" href="/platforms/twitter/why-use-hashtags-guide-to-the-micro-blogging-universe/">Why Use Hashtags?</a><br>
+            <a class="blue" href="/platforms/twitter/whats-the-point-of-all-these-hashtags/">What's The Point?</a><br>
+            <a class="blue" href="/how-to/history/what-is-a-hashtag/">What is a (#) Hashtag?</a><br>
+        </div>
+        <div style="text-align:left; float:right; margin:0 10px;" class="smaller">
+            <a class="blue" href="/platforms/twitter/how-to-start-a-twitter-hashtag/">How To Start a Hashtag</a><br>
+            <a class="blue" href="/platforms/twitter/history-of-hashtags/">History of Hashtags</a><br>
+            <a class="blue" href="/platforms/twitter/what-characters-can-a-hashtag-include/">Allowed Hashtag Letters</a><br>
+            <a class="blue" href="/how-to/search/how-to-use-hashtag-analytics/">Hashtag Analytics</a><br>
+            <a class="blue" href="/platforms/twitter/twitter-etiquette-101/">Twitter Etiquette 101</a><br>
+        </div>
+    </div>
+    <div id="footMiddle" style="width:33%;float:left;height:100%;text-align:center;">
+        <center>
+            <div style="width:300px;">
+                <div>
+                    <img src="/images/twitterbird.png" style="xmargin-right:25px;" class="floatright" alt="image" width="72" height="42">
+                    <p class="nomarginbottom"><em style="position:relative;top:10px;left:20px;font-weight:bold;">Connect on Twitter</em></p>
+                    <div style="margin-top:30px;">
+                        "<em class="white smaller" id="footer-twitter">Boy, I think we can all relate to this funny anecdote.  Relieved to see some light at the end of the tunnel.… <a class="blue" href="https://t.co/NXqBpalD4i">https://t.co/NXqBpalD4i</a></em>"
+                    </div>
+                    <button style="margin-top:10px;" class="shiny-blue" type="button" onclick="window.location='http://twitter.com/hashtags';">Follow @hashtags</button>
+                    <script>
+                        // set your twitter id
+                        var user = 'hashtags';
+                        // using jquery built in get json method with twitter api, return only one result
+                        $.getJSON('/twitter/twitter.php', function(data)      {
+                            // result returned
+                            var tweet = data[0].text;
+                            // process links and reply
+                            tweet = tweet.replace(/(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig, function(url) {
+                                return '<a class="blue"  href="'+url+'">'+url+'</a>';
+                            }).replace(/B@([_a-z0-9]+)/ig, function(reply) {
+                                return  reply.charAt(0)+'<a class="blue"  href="http://twitter.com/'+reply.substring(1)+'">'+reply.substring(1)+'</a>';
+                            });
+                            // output the result
+                            $("#footer-twitter").html(tweet);
+                        });
+                    </script>
+                </div>
+            </div>
+        </center>
+    </div>
+    <div id="footRight" style="width:33%;float:left;text-align:left;">
+        <p style="padding-bottom:10px;">
+            <em style="font-weight:bold;position:relative;top:10px;">Find us around the web</em>
+        </p>
+        <a href="https://www.facebook.com/hashtags" target="_blank"><img src="/images/fb-icon.png" class="png floatleft medmarginright" alt="Lean Hashtags Facebook" width="44" height="45"></a>
+        <a href="https://twitter.com/hashtags" target="_blank"><img style="margin-left:5px;" src="/images/twitter-icon.png" class="png floatleft medmarginright" alt="Hashtags Twitter" width="44" height="45"></a>
+        <a href="https://plus.google.com/+hashtagsorg/posts" target="_blank"><img style="margin-left:5px;" src="/images/plus-icon.png" class="png floatleft medmarginright" alt="Hashtags Google Plus" width="44" height="45"></a>
+        <a href="http://www.youtube.com/user/hashtagsorg/" target="_blank"><img style="margin-left:5px;" src="/images/youtube-icon.png" class="png floatleft medmarginright" alt="image" width="44" height="45"></a>
+        <div class="clr"></div>
+        <br>
+        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fhashtags&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;action=recommend&amp;colorscheme=dark&amp;font=lucida+grande&amp;height=40&amp;appId=165758706802348" scrolling="no" style="border:none; overflow:hidden; width:250px; height:40px;" allowtransparency="true" frameborder="0"></iframe>
+        <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+    <div class="footer smaller">Copyright © 2006 - 2021 <a class="blue tdn" href="http://www.logika.net/">LOGIKA Corporation<sup><small>®</small></sup></a>. All rights reserved. <a class="blue tdn" href="/user-agreement">User Agreement</a>.</div>
 </div>
-</div>
-
-<div class="clr"></div>
-</div></div>
-      <div class="bitter"><h2 style="color:#3366cc;">recent tweets </h2><div id="recentMore0" class="floatR" style="position:relative;"></div><div style="border:1px dashed #3366cc; padding:4px; -moz-border-radius:0.2em; border-radius:0.2em; -webkit-border-radius:0.2em;" id="recentDiv0"><div id="recentDivNew0"></div>
-<div class="rcontent" id="tweet1448103701906821121">  <div class="rtn"><a href="http://twitter.com/evan_cheran" title="view CryptFantasy's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1447303969932406785/m_OB352L_normal.jpg" alt="CryptFantasy's thumbnail " width="48" height="48" border="0"></a></div>  <div class="rtext">    <div class="rsn"><b>CryptFantasy</b> <span class="rsn">@evan_cheran</span><div class="rago">3 minutes ago</div></div>    <div class="rtweet"><a href="http://twitter.com/DelCrxpto" target="twitter" class="user">@DelCrxpto</a>  <a href="/analytics/1CentDreamShib/" target="_parent" class="hashtag">#1CentDreamShib</a> It has begun. people has finally realise that  <a href="/analytics/shib/" target="_parent" class="hashtag">#shib</a> is no joke</div>  </div></div><div class="clr"></div><div class="rcontent" id="tweet1448100568791195650">  <div class="rtn"><a href="http://twitter.com/Babyshibatoken" title="view Baby Shiba Inu's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1411522370582552579/emGdgrYE_normal.jpg" alt="Baby Shiba Inu's thumbnail " width="48" height="48" border="0"></a></div>  <div class="rtext">    <div class="rsn"><b>Baby Shiba Inu</b> <span class="rsn">@Babyshibatoken</span><div class="rago">15 minutes ago</div></div>    <div class="rtweet"><a href="http://twitter.com/cz_binance" target="twitter" class="user">@cz_binance</a> $BabyShibaInu , the next  <a href="/analytics/shib/" target="_parent" class="hashtag">#shib</a> token! <a href="https://t.co/JObINH0i4e" target="twitter" rel="nofollow" class="link">https://t.co/JObINH0i4e</a></div>    <div class="retweet">Retweeted by <a href="http://twitter.com/jisuungspark" target="twitter">Brey</a></div>  </div></div><div class="clr"></div><div class="rcontent" id="tweet1448100052875030529">  <div class="rtn"><a href="http://twitter.com/ShibaInuHodler" title="view Shiba Inu's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1411693155796328453/NEfu4tx3_normal.jpg" alt="Shiba Inu's thumbnail " width="48" height="48" border="0"></a></div>  <div class="rtext">    <div class="rsn"><b>Shiba Inu</b> <span class="rsn">@ShibaInuHodler</span><div class="rago">17 minutes ago</div></div>    <div class="rtweet">I think <a href="http://twitter.com/elonmusk" target="twitter" class="user">@elonmusk</a> should tweet about  <a href="/analytics/Shib%E2%80%A6/" target="_parent" class="hashtag">#Shib…</a>
-
-Who’s with me?🚀💎🙌</div>    <div class="retweet">Retweeted by <a href="http://twitter.com/Ritesh5148" target="twitter">Ritesh</a></div>  </div></div><div class="clr"></div><div class="rcontent" id="tweet1448098882655772672">  <div class="rtn"><a href="http://twitter.com/Pankajchandra94" title="view PANKAJ #SHIB ARMY .'s twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1445908733297500165/h3jTA5DM_normal.jpg" alt="PANKAJ #SHIB ARMY .'s thumbnail " width="48" height="48" border="0"></a></div>  <div class="rtext">    <div class="rsn"><b>PANKAJ #SHIB ARMY .</b> <span class="rsn">@Pankajchandra94</span><div class="rago">22 minutes ago</div></div>    <div class="rtweet">Good morning  <a href="/analytics/SHIBARMY/" target="_parent" class="hashtag">#SHIBARMY</a> . 
-Love you  <a href="/analytics/SHIB/" target="_parent" class="hashtag">#SHIB</a> .</div>    <div class="retweet">Retweeted by <a href="http://twitter.com/cryptopredict98" target="twitter">cryptopredictor98</a></div>  </div></div><div class="clr"></div><div class="rcontent" id="tweet1448097607612575746">  <div class="rtn"><a href="http://twitter.com/ShibaWorldPeace" title="view Shiba World Peace ✌️'s twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1447865593084792832/KQh67APJ_normal.jpg" alt="Shiba World Peace ✌️'s thumbnail " width="48" height="48" border="0"></a></div>  <div class="rtext">    <div class="rsn"><b>Shiba World Peace ✌️</b> <span class="rsn">@ShibaWorldPeace</span><div class="rago">27 minutes ago</div></div>    <div class="rtweet">Surge Inu seriously looks like it could 1000x :O  <a href="/analytics/CRYPTO/" target="_parent" class="hashtag">#CRYPTO</a>  <a href="/analytics/BITCOIN%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0/" target="_parent" class="hashtag">#BITCOIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>  <a href="/analytics/SURGEINU/" target="_parent" class="hashtag">#SURGEINU</a>  <a href="/analytics/SHIB/" target="_parent" class="hashtag">#SHIB</a>  <a href="/analytics/ALTCOINS/" target="_parent" class="hashtag">#ALTCOINS</a>  <a href="/analytics/SHIBAINU/" target="_parent" class="hashtag">#SHIBAINU</a>  <a href="/analytics/SHIBA%E2%80%A6/" target="_parent" class="hashtag">#SHIBA…</a> <a href="https://t.co/CGlDq46dwA" target="twitter" rel="nofollow" class="link">https://t.co/CGlDq46dwA</a></div>    <div class="retweet">Retweeted by <a href="http://twitter.com/ShibaWorldPeace" target="twitter">Shiba World Peace ✌️</a></div>  </div></div><div class="clr"></div><div class="rcontent" id="tweet1448096932300214278">  <div class="rtn"><a href="http://twitter.com/KovyArmy" title="view Went full #ShibArmy check back in 5 years🔥✊'s twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1446887830056230915/y9y49vZm_normal.jpg" alt="Went full #ShibArmy check back in 5 years🔥✊'s thumbnail " width="48" height="48" border="0"></a></div>  <div class="rtext">    <div class="rsn"><b>Went full #ShibArmy check back in 5 years🔥✊</b> <span class="rsn">@KovyArmy</span><div class="rago">30 minutes ago</div></div>    <div class="rtweet"><a href="http://twitter.com/shibburn" target="twitter" class="user">@shibburn</a>  <a href="/analytics/SHIBARMY/" target="_parent" class="hashtag">#SHIBARMY</a>  <a href="/analytics/SHIB/" target="_parent" class="hashtag">#SHIB</a> $shib <a href="https://t.co/x9bab2SUvK" target="twitter" rel="nofollow" class="link">https://t.co/x9bab2SUvK</a></div>  </div></div><div class="clr"></div><div class="rcontent" id="tweet1448096735188955138">  <div class="rtn"><a href="http://twitter.com/Sleepless9ight" title="view Sleepless9ight's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1436037683533520898/51HzBKXG_normal.jpg" alt="Sleepless9ight's thumbnail " width="48" height="48" border="0"></a></div>  <div class="rtext">    <div class="rsn"><b>Sleepless9ight</b> <span class="rsn">@Sleepless9ight</span><div class="rago">30 minutes ago</div></div>    <div class="rtweet"><a href="http://twitter.com/RobinhoodComms" target="twitter" class="user">@RobinhoodComms</a> wen  <a href="/analytics/shib/" target="_parent" class="hashtag">#shib</a></div>  </div></div><div class="clr"></div><div class="rcontent" id="tweet1448096655492874243">  <div class="rtn"><a href="http://twitter.com/mike47763099" title="view SHIBA ARMY SOLDIER's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1391055085732614144/WihjMghp_normal.jpg" alt="SHIBA ARMY SOLDIER's thumbnail " width="48" height="48" border="0"></a></div>  <div class="rtext">    <div class="rsn"><b>SHIBA ARMY SOLDIER</b> <span class="rsn">@mike47763099</span><div class="rago">31 minutes ago</div></div>    <div class="rtweet">Its going crazy get ready 🚀🚀 $Shib  <a href="/analytics/Shib/" target="_parent" class="hashtag">#Shib</a> <a href="https://t.co/khY3g3QNEj" target="twitter" rel="nofollow" class="link">https://t.co/khY3g3QNEj</a></div>    <div class="retweet">Retweeted by <a href="http://twitter.com/Agungfathoni3" target="twitter">_A27@_f</a></div>  </div></div><div class="clr"></div><div class="rcontent" id="tweet1448096651306942464">  <div class="rtn"><a href="http://twitter.com/Nalin_Krean" title="view Nalin Krean 👑's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1440260439170969611/xACDRk7g_normal.jpg" alt="Nalin Krean 👑's thumbnail " width="48" height="48" border="0"></a></div>  <div class="rtext">    <div class="rsn"><b>Nalin Krean 👑</b> <span class="rsn">@Nalin_Krean</span><div class="rago">31 minutes ago</div></div>    <div class="rtweet"><a href="http://twitter.com/JRNYcrypto" target="twitter" class="user">@JRNYcrypto</a> lol  <a href="/analytics/cryto/" target="_parent" class="hashtag">#cryto</a> is good for everyone! Especially  <a href="/analytics/SHIB/" target="_parent" class="hashtag">#SHIB</a> 🤣🤣🤣
-<a href="https://t.co/dnriK11Rjs" target="twitter" rel="nofollow" class="link">https://t.co/dnriK11Rjs</a></div>  </div></div><div class="clr"></div><div class="rcontent" id="tweet1448096160573542404">  <div class="rtn"><a href="http://twitter.com/Floki_Token" title="view Floki Frunkpuppy's twitter page" target="twitter"><img src="https://pbs.twimg.com/profile_images/1447171603167653890/YQXc7o9g_normal.jpg" alt="Floki Frunkpuppy's thumbnail " width="48" height="48" border="0"></a></div>  <div class="rtext">    <div class="rsn"><b>Floki Frunkpuppy</b> <span class="rsn">@Floki_Token</span><div class="rago">33 minutes ago</div></div>    <div class="rtweet">Father <a href="http://twitter.com/Elonmusk" target="twitter" class="user">@Elonmusk</a> wrote about us.  Love You!! 😍😍😍
- <a href="/analytics/Airdrop/" target="_parent" class="hashtag">#Airdrop</a>  <a href="/analytics/NFT/" target="_parent" class="hashtag">#NFT</a>  <a href="/analytics/PancakeSwap/" target="_parent" class="hashtag">#PancakeSwap</a>  <a href="/analytics/RACA/" target="_parent" class="hashtag">#RACA</a>  <a href="/analytics/SHIB/" target="_parent" class="hashtag">#SHIB</a>  <a href="/analytics/Doge/" target="_parent" class="hashtag">#Doge</a>  <a href="/analytics/GameFi/" target="_parent" class="hashtag">#GameFi</a>  <a href="/analytics/Trending%E2%80%A6/" target="_parent" class="hashtag">#Trending…</a> <a href="https://t.co/MVe1RilPk6" target="twitter" rel="nofollow" class="link">https://t.co/MVe1RilPk6</a></div>    <div class="retweet">Retweeted by <a href="http://twitter.com/lunaaster_" target="twitter">byul</a></div>  </div></div><div class="clr"></div><div id="recentDivLast0" style="float:right;font-size:larger;margin:10px 5px;"><a href="/analytics.html" style="font-weight:bold; color:#4095D4;">Upgrade To View More</a></div><div class="clr"></div></div></div>
-      <div class="clr"></div>
-      <div class="bitter" style="margin:4px; width:auto;"><h2 style="color:#3366cc;">related hashtags</h2><center><div name="relatedDiv" style="border:1px dashed #3366cc; padding:4px; -moz-border-radius:0.2em; border-radius:0.2em; -webkit-border-radius:0.2em;" id="relatedDiv0"><div style="position: relative;"><div style="position: relative; width: 500px; height: 500px;" dir="ltr"><div style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;" aria-label="A chart."><svg width="500" height="500" style="overflow: hidden;" aria-label="A chart."><defs id="_ABSTRACT_RENDERER_ID_3"></defs><rect x="0" y="0" width="500" height="500" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><rect x="328" y="128" width="162" height="244" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g column-id="Upgrade To View"><rect x="328" y="128" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="139.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">#Upgrade To View</text></g><circle cx="334.5" cy="134.5" r="6.5" stroke="none" stroke-width="0" fill="#3366cc"></circle></g><g column-id="Upgrade To View"><rect x="328" y="149" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="160.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">#Upgrade To View</text></g><circle cx="334.5" cy="155.5" r="6.5" stroke="none" stroke-width="0" fill="#dc3912"></circle></g><g column-id="Upgrade To View"><rect x="328" y="170" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="181.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">#Upgrade To View</text></g><circle cx="334.5" cy="176.5" r="6.5" stroke="none" stroke-width="0" fill="#ff9900"></circle></g><g column-id="Upgrade To View"><rect x="328" y="191" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="202.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">#Upgrade To View</text></g><circle cx="334.5" cy="197.5" r="6.5" stroke="none" stroke-width="0" fill="#109618"></circle></g><g column-id="Upgrade To View"><rect x="328" y="212" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="223.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">#Upgrade To View</text></g><circle cx="334.5" cy="218.5" r="6.5" stroke="none" stroke-width="0" fill="#990099"></circle></g><g column-id="nft"><rect x="328" y="233" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="244.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">#nft</text></g><circle cx="334.5" cy="239.5" r="6.5" stroke="none" stroke-width="0" fill="#0099c6"></circle></g><g column-id="airdrop"><rect x="328" y="254" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="265.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">#airdrop</text></g><circle cx="334.5" cy="260.5" r="6.5" stroke="none" stroke-width="0" fill="#dd4477"></circle></g><g column-id="pancakeswap"><rect x="328" y="275" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="286.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">#pancakeswap</text></g><circle cx="334.5" cy="281.5" r="6.5" stroke="none" stroke-width="0" fill="#66aa00"></circle></g><g column-id="trending"><rect x="328" y="296" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="307.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">#trending</text></g><circle cx="334.5" cy="302.5" r="6.5" stroke="none" stroke-width="0" fill="#b82e2e"></circle></g><g column-id="gamefi"><rect x="328" y="317" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="328.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">#gamefi</text></g><circle cx="334.5" cy="323.5" r="6.5" stroke="none" stroke-width="0" fill="#316395"></circle></g><g column-id="raca"><rect x="328" y="338" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="349.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">#raca</text></g><circle cx="334.5" cy="344.5" r="6.5" stroke="none" stroke-width="0" fill="#994499"></circle></g><g column-id="ALL OTHERS"><rect x="328" y="359" width="162" height="13" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="346" y="370.05" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#222222">ALL OTHERS</text></g><circle cx="334.5" cy="365.5" r="6.5" stroke="none" stroke-width="0" fill="#22aa99"></circle></g></g><g><path d="M159,236.2L159,265.8L241.26840067369017,167.37753020585373L241.26840067369017,137.77753020585374" stroke="#264d99" stroke-width="1" fill="#264d99"></path><path d="M159,236.2L159,117.79999999999998A148,118.4,0,0,1,241.26840067369017,137.77753020585374L159,236.2A0,0,0,0,0,159,236.2" stroke="#3366cc" stroke-width="1" fill="#3366cc"></path><text text-anchor="start" x="179.47860586595073" y="149.4954277306861" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#ffffff">9.4%</text></g><g><path d="M159,236.2L159,265.8L280.8386081901266,198.5840325908538L280.8386081901266,168.98403259085381" stroke="#a52b0e" stroke-width="1" fill="#a52b0e"></path><path d="M159,236.2L241.26840067369017,137.77753020585374A148,118.4,0,0,1,280.8386081901266,168.98403259085381L159,236.2A0,0,0,0,0,159,236.2" stroke="#dc3912" stroke-width="1" fill="#dc3912"></path><text text-anchor="start" x="236.17541737457094" y="172.4998740914915" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#ffffff">6%</text></g><g><path d="M159,236.2L159,265.8L298.78440585998186,226.90058198175714L298.78440585998186,197.30058198175715" stroke="#bf7300" stroke-width="1" fill="#bf7300"></path><path d="M159,236.2L280.8386081901266,168.98403259085381A148,118.4,0,0,1,298.78440585998186,197.30058198175715L159,236.2A0,0,0,0,0,159,236.2" stroke="#ff9900" stroke-width="1" fill="#ff9900"></path></g><g><path d="M159,236.2L159,265.8L305.9828233095718,251.9424469242872L305.9828233095718,222.3424469242872" stroke="#0c7112" stroke-width="1" fill="#0c7112"></path><path d="M159,236.2L298.78440585998186,197.30058198175715A148,118.4,0,0,1,305.9828233095718,222.3424469242872L159,236.2A0,0,0,0,0,159,236.2" stroke="#109618" stroke-width="1" fill="#109618"></path></g><g><path d="M307,236.2L307,265.8A148,118.4,0,0,1,306.3407775410136,276.96265985821026L306.3407775410136,247.3626598582102A148,118.4,0,0,0,307,236.2" stroke="#730073" stroke-width="1" fill="#730073"></path><path d="M159,236.2L159,265.8L306.3407775410136,276.9626598582102L306.3407775410136,247.3626598582102" stroke="#730073" stroke-width="1" fill="#730073"></path><path d="M159,236.2L305.9828233095718,222.3424469242872A148,118.4,0,0,1,306.3407775410136,247.3626598582102L159,236.2A0,0,0,0,0,159,236.2" stroke="#990099" stroke-width="1" fill="#990099"></path></g><g><path d="M306.3407775410136,247.36265985821024L306.3407775410136,276.96265985821026A148,118.4,0,0,1,300.6194847327109,300.189966388273L300.6194847327109,270.58996638827296A148,118.4,0,0,0,306.3407775410136,247.36265985821024" stroke="#007395" stroke-width="1" fill="#007395"></path><path d="M159,236.2L159,265.8L300.6194847327109,300.189966388273L300.6194847327109,270.58996638827296" stroke="#007395" stroke-width="1" fill="#007395"></path><path d="M159,236.2L306.3407775410136,247.36265985821024A148,118.4,0,0,1,300.6194847327109,270.58996638827296L159,236.2A0,0,0,0,0,159,236.2" stroke="#0099c6" stroke-width="1" fill="#0099c6"></path></g><g><path d="M300.6194847327109,270.5899663882729L300.6194847327109,300.1899663882729A148,118.4,0,0,1,290.0323509113151,320.8462962367001L290.0323509113151,291.24629623670006A148,118.4,0,0,0,300.6194847327109,270.5899663882729" stroke="#a63359" stroke-width="1" fill="#a63359"></path><path d="M159,236.2L159,265.8L290.0323509113151,320.8462962367001L290.0323509113151,291.24629623670006" stroke="#a63359" stroke-width="1" fill="#a63359"></path><path d="M159,236.2L300.6194847327109,270.5899663882729A148,118.4,0,0,1,290.0323509113151,291.24629623670006L159,236.2A0,0,0,0,0,159,236.2" stroke="#dd4477" stroke-width="1" fill="#dd4477"></path></g><g><path d="M290.0323509113151,291.2462962367001L290.0323509113151,320.84629623670014A148,118.4,0,0,1,275.312057385981,339.0142294656563L275.312057385981,309.41422946565626A148,118.4,0,0,0,290.0323509113151,291.2462962367001" stroke="#4d8000" stroke-width="1" fill="#4d8000"></path><path d="M159,236.2L159,265.8L275.312057385981,339.0142294656563L275.312057385981,309.41422946565626" stroke="#4d8000" stroke-width="1" fill="#4d8000"></path><path d="M159,236.2L290.0323509113151,291.2462962367001A148,118.4,0,0,1,275.312057385981,309.41422946565626L159,236.2A0,0,0,0,0,159,236.2" stroke="#66aa00" stroke-width="1" fill="#66aa00"></path></g><g><path d="M275.312057385981,309.41422946565626L275.312057385981,339.0142294656563A148,118.4,0,0,1,256.7025138593423,354.7340206150696L256.7025138593423,325.1340206150696A148,118.4,0,0,0,275.312057385981,309.41422946565626" stroke="#8a2323" stroke-width="1" fill="#8a2323"></path><path d="M159,236.2L159,265.8L256.7025138593423,354.7340206150696L256.7025138593423,325.1340206150696" stroke="#8a2323" stroke-width="1" fill="#8a2323"></path><path d="M159,236.2L275.312057385981,309.41422946565626A148,118.4,0,0,1,256.7025138593423,325.1340206150696L159,236.2A0,0,0,0,0,159,236.2" stroke="#b82e2e" stroke-width="1" fill="#b82e2e"></path></g><g><path d="M256.70251385934233,325.1340206150695L256.70251385934233,354.73402061506954A148,118.4,0,0,1,234.82598743604728,367.4800303047898L234.82598743604728,337.8800303047898A148,118.4,0,0,0,256.70251385934233,325.1340206150695" stroke="#254a70" stroke-width="1" fill="#254a70"></path><path d="M159,236.2L159,265.8L234.82598743604728,367.4800303047898L234.82598743604728,337.8800303047898" stroke="#254a70" stroke-width="1" fill="#254a70"></path><path d="M159,236.2L256.70251385934233,325.1340206150695A148,118.4,0,0,1,234.82598743604728,337.8800303047898L159,236.2A0,0,0,0,0,159,236.2" stroke="#316395" stroke-width="1" fill="#316395"></path></g><g><path d="M234.82598743604728,337.8800303047898L234.82598743604728,367.4800303047898A148,118.4,0,0,1,210.41398680343679,376.82605664898966L210.41398680343679,347.22605664898964A148,118.4,0,0,0,234.82598743604728,337.8800303047898" stroke="#733373" stroke-width="1" fill="#733373"></path><path d="M159,236.2L159,265.8L210.41398680343679,376.82605664898966L210.41398680343679,347.22605664898964" stroke="#733373" stroke-width="1" fill="#733373"></path><path d="M159,236.2L234.82598743604728,337.8800303047898A148,118.4,0,0,1,210.41398680343679,347.22605664898964L159,236.2A0,0,0,0,0,159,236.2" stroke="#994499" stroke-width="1" fill="#994499"></path></g><g><path d="M210.41398680343679,347.22605664898964L210.41398680343679,376.82605664898966A148,118.4,0,0,1,11,265.8L11,236.2A148,118.4,0,0,0,210.41398680343679,347.22605664898964" stroke="#1a8073" stroke-width="1" fill="#1a8073"></path><path d="M159,236.2L210.41398680343679,347.22605664898964A148,118.4,0,1,1,159,117.79999999999998L159,236.2A0,0,0,1,0,159,236.2" stroke="#22aa99" stroke-width="1" fill="#22aa99"></path><text text-anchor="start" x="27.095987568193635" y="256.69315959567456" font-family="bitter" font-size="13" stroke="none" stroke-width="0" fill="#ffffff">55.6%</text></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>Hashtag</th><th>Tweets</th></tr></thead><tbody><tr><td>#Upgrade To View</td><td>103</td></tr><tr><td>#Upgrade To View</td><td>66</td></tr><tr><td>#Upgrade To View</td><td>47</td></tr><tr><td>#Upgrade To View</td><td>38</td></tr><tr><td>#Upgrade To View</td><td>37</td></tr><tr><td>#nft</td><td>35</td></tr><tr><td>#airdrop</td><td>33</td></tr><tr><td>#pancakeswap</td><td>32</td></tr><tr><td>#trending</td><td>32</td></tr><tr><td>#gamefi</td><td>32</td></tr><tr><td>#raca</td><td>32</td></tr><tr><td>ALL OTHERS</td><td>611</td></tr></tbody></table></div></div></div><div style="display: none; position: absolute; top: 510px; left: 510px; white-space: nowrap; font-family: bitter; font-size: 13px;" aria-hidden="true">ALL OTHERS</div><div></div></div></div></center></div>
-      <div class="clr"></div>
-    </div>    <div class="clr"></div>
-  </div>
-  <div class="clr"></div>
-</div><div class="clr"></div>
-</div></div>
-<div class="clr"></div><div style="display:none; height:20px; background-color:white; margin:-10px 0 0 0;"><center><h4 class="bitter grey">analytics powered by <a href="http://logika.net" target="_blank" class="blue">LOGIKA Corporation®</a></h4></center></div><div class="clr mb"></div><a href="#" class="scrollup" title="back to top"></a>
- </div>
- <div class="hidden-mobile foot bg-darkgrey w100 lightgrey" style="height:200px;box-shadow: 0px -4px 4px #333;">
-   <div id="footLeft" style="width:33%;float:left;height:100%;text-align:right;">
-     <p style="padding-bottom:10px;position:relative;left:-80px;">
-       <em style="font-weight:bold;position:relative;top:10px;">Featured Resources</em>
-     </p>
-     <div style="text-align:left;float:right;" class="smaller">
-       <a class="blue" href="/trending-on-twitter.html">Trending on Twitter</a><br>
-       <a class="blue" href="/platforms/twitter/basic-twitter-terms-you-must-know/">Twitter Terminology</a><br>
-       <a class="blue" href="/platforms/twitter/why-use-hashtags-guide-to-the-micro-blogging-universe/">Why Use Hashtags?</a><br>
-       <a class="blue" href="/platforms/twitter/whats-the-point-of-all-these-hashtags/">What's The Point?</a><br>
-       <a class="blue" href="/how-to/history/what-is-a-hashtag/">What is a (#) Hashtag?</a><br>
-     </div>
-     <div style="text-align:left; float:right; margin:0 10px;" class="smaller">
-       <a class="blue" href="/platforms/twitter/how-to-start-a-twitter-hashtag/">How To Start a Hashtag</a><br>
-       <a class="blue" href="/platforms/twitter/history-of-hashtags/">History of Hashtags</a><br>
-       <a class="blue" href="/platforms/twitter/what-characters-can-a-hashtag-include/">Allowed Hashtag Letters</a><br>
-       <a class="blue" href="/how-to/search/how-to-use-hashtag-analytics/">Hashtag Analytics</a><br>
-       <a class="blue" href="/platforms/twitter/twitter-etiquette-101/">Twitter Etiquette 101</a><br>
-     </div>
-   </div>
-   <div id="footMiddle" style="width:33%;float:left;height:100%;text-align:center;">
-   <center>
-     <div style="width:300px;">
-       <div>
-         <img src="/images/twitterbird.png" style="xmargin-right:25px;" class="floatright" alt="image" width="72" height="42">
-         <p class="nomarginbottom"><em style="position:relative;top:10px;left:20px;font-weight:bold;">Connect on Twitter</em></p>
-         <div style="margin-top:30px;">
-           "<em class="white smaller" id="footer-twitter">Boy, I think we can all relate to this funny anecdote.  Relieved to see some light at the end of the tunnel.… <a class="blue" href="https://t.co/NXqBpalD4i">https://t.co/NXqBpalD4i</a></em>"
-         </div>
-         <button style="margin-top:10px;" class="shiny-blue" type="button" onclick="window.location='http://twitter.com/hashtags';">Follow @hashtags</button>
-         <script>
-           // set your twitter id
-           var user = 'hashtags';
-           // using jquery built in get json method with twitter api, return only one result
-           $.getJSON('/twitter/twitter.php', function(data)      {
-             // result returned
-             var tweet = data[0].text;
-             // process links and reply
-             tweet = tweet.replace(/(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig, function(url) {
-               return '<a class="blue"  href="'+url+'">'+url+'</a>';
-             }).replace(/B@([_a-z0-9]+)/ig, function(reply) {
-             return  reply.charAt(0)+'<a class="blue"  href="http://twitter.com/'+reply.substring(1)+'">'+reply.substring(1)+'</a>';
-           });
-           // output the result
-           $("#footer-twitter").html(tweet);
-           }); 
-         </script>
-       </div>
-     </div>
-   </center>
-   </div>
-   <div id="footRight" style="width:33%;float:left;text-align:left;">
-       <p style="padding-bottom:10px;">
-         <em style="font-weight:bold;position:relative;top:10px;">Find us around the web</em>
-       </p>
-       <a href="https://www.facebook.com/hashtags" target="_blank"><img src="/images/fb-icon.png" class="png floatleft medmarginright" alt="Lean Hashtags Facebook" width="44" height="45"></a> 
-       <a href="https://twitter.com/hashtags" target="_blank"><img style="margin-left:5px;" src="/images/twitter-icon.png" class="png floatleft medmarginright" alt="Hashtags Twitter" width="44" height="45"></a>
-       <a href="https://plus.google.com/+hashtagsorg/posts" target="_blank"><img style="margin-left:5px;" src="/images/plus-icon.png" class="png floatleft medmarginright" alt="Hashtags Google Plus" width="44" height="45"></a> 
-       <a href="http://www.youtube.com/user/hashtagsorg/" target="_blank"><img style="margin-left:5px;" src="/images/youtube-icon.png" class="png floatleft medmarginright" alt="image" width="44" height="45"></a>
-       <div class="clr"></div>
-       <br>
-       <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fhashtags&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;action=recommend&amp;colorscheme=dark&amp;font=lucida+grande&amp;height=40&amp;appId=165758706802348" scrolling="no" style="border:none; overflow:hidden; width:250px; height:40px;" allowtransparency="true" frameborder="0"></iframe>
-       <div class="clr"></div>
-   </div>
-   <div class="clr"></div>
-   <div class="footer smaller">Copyright © 2006 - 2021 <a class="blue tdn" href="http://www.logika.net/">LOGIKA Corporation<sup><small>®</small></sup></a>. All rights reserved. <a class="blue tdn" href="/user-agreement">User Agreement</a>.</div>
- </div>
- <div class="show-mobile footer smaller">Copyright © 2006 - 2021 <a class="blue tdn" href="http://www.logika.net/">LOGIKA Corporation<sup><small>®</small></sup></a>. All rights reserved. <a class="blue tdn" href="/user-agreement">User Agreement</a>.</div>
- <div id="msgModal" class="clr"></div>
- <script type="text/javascript">
- jQuery("#obscure").click(function(){ closeModal(); });
- </script>
- <div id="shadower" class="shadower" style="display: none; height: 2305px;"><div id="centered"><img src="/images/fp_load.gif"><div style="clear:both; margin-top:20px; color:white; font-size:20px; font-weight:bold; font-family:Arial; margin-left:20px; opacity:.4;">Your custom PDF report is currently being generated...</div></div></div>
-
-
-</body></html> 9:00 pm 7:00 pm 4,000
+<div class="show-mobile footer smaller">Copyright © 2006 - 2021 <a class="blue tdn" href="http://www.logika.net/">LOGIKA Corporation<sup><small>®</small></sup></a>. All rights reserved. <a class="blue tdn" href="/user-agreement">User Agreement</a>.</div>
+<div id="msgModal" class="clr"></div>
+<script type="text/javascript">
+    jQuery("#obscure").click(function(){ closeModal(); });
+</script>
+<div id="shadower" class="shadower" style="display: none; height: 2303px;"><div id="centered"><img src="/images/fp_load.gif"><div style="clear:both; margin-top:20px; color:white; font-size:20px; font-weight:bold; font-family:Arial; margin-left:20px; opacity:.4;">Your custom PDF report is currently being generated...</div></div></div>
