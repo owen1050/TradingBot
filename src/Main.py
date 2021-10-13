@@ -7,10 +7,10 @@ driverPath = "/geckodriverMac" #\\geckodriver.exe for windows /geckodriver for l
 if False:
     data = TwitterActivityAccessor.getActivity("twitter", driverPath)
 
-if False:
+if True:
     data = CryptoListAccessor.getList(driverPath)
 
-if True:
+if False:
     data = GoogleTrendsAccessor.getLast24HoursByHour("doge")
 
 print(data)

@@ -37,8 +37,8 @@ class CryptoListAccessor:
             marketCap = driver.find_element_by_xpath(mkCpXpath).text
             priceUSD = driver.find_element_by_xpath(priceXpat).text
             volume = driver.find_element_by_xpath(volumXpat).text
-
-            temp = [name, symbol, marketCap, priceUSD, volume]
+            url = str(driver.find_element_by_xpath(priceXpat).get_attribute('href')).replace("/markets/", "/historical-data/")
+            temp = [name, symbol, marketCap, priceUSD, volume, url]
             data.append(temp)
             if i % 10 == 0:
                 driver.execute_script("window.scrollTo(0, "+ str(i * 75)+")")
