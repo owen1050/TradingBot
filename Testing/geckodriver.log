@@ -25,7 +25,10 @@ JavaScript error: http://inventwithpython.com/js/bootstrap.min.js, line 7: Error
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
- Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile9tEgmb"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+\rust_mozprofile9tEgmb"
 *** You are running in headless mode.
 1634012535257	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -37,8 +40,10 @@ JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachabl
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofiledeZmTM"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+.
 1634012644813	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofiledeZmTM\\search.json.mozlz4", (void 0)))
@@ -49,8 +54,9 @@ JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachabl
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilecd2HaC"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ou are running in headless mode.
 1634012789858	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilecd2HaC\\search.json.mozlz4", (void 0)))
@@ -60,8 +66,10 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileus4l61"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+.
 1634013220832	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileus4l61\\search.json.mozlz4", (void 0)))
@@ -71,8 +79,9 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileFDL3iM"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ou are running in headless mode.
 1634013246176	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileFDL3iM\\search.json.mozlz4", (void 0)))
@@ -82,8 +91,9 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilexMIREw"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ou are running in headless mode.
 1634013266001	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilexMIREw\\search.json.mozlz4", (void 0)))
@@ -94,8 +104,9 @@ JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachabl
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile5dcwzt"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ou are running in headless mode.
 1634013282174	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile5dcwzt\\search.json.mozlz4", (void 0)))
@@ -105,8 +116,10 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile3E86uO"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+.
 1634013302941	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile3E86uO\\search.json.mozlz4", (void 0)))
@@ -116,8 +129,9 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileM8LiNt"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ou are running in headless mode.
 1634013401666	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileM8LiNt\\search.json.mozlz4", (void 0)))
@@ -127,8 +141,9 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilejj9Ugf"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ou are running in headless mode.
 1634013420806	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilejj9Ugf\\search.json.mozlz4", (void 0)))
@@ -138,8 +153,10 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileYI9src"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+.
 1634013438466	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileYI9src\\search.json.mozlz4", (void 0)))
@@ -149,8 +166,9 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileZxecqa"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ou are running in headless mode.
 1634013467479	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileZxecqa\\search.json.mozlz4", (void 0)))
@@ -160,8 +178,9 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileO5khLT"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ou are running in headless mode.
 1634013535576	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileO5khLT\\search.json.mozlz4", (void 0)))
@@ -171,8 +190,9 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileOK1mD3"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ou are running in headless mode.
 1634013603167	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileOK1mD3\\search.json.mozlz4", (void 0)))
@@ -182,8 +202,10 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile5r7W7w"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+.
 1634013681411	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile5r7W7w\\search.json.mozlz4", (void 0)))
@@ -193,8 +215,9 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileXO4woC"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ou are running in headless mode.
 1634013766065	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileXO4woC\\search.json.mozlz4", (void 0)))
@@ -213,8 +236,9 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile11WK52"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ou are running in headless mode.
 1634013821460	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile11WK52\\search.json.mozlz4", (void 0)))
@@ -224,8 +248,9 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileCyxCw2"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ou are running in headless mode.
 1634013859715	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileCyxCw2\\search.json.mozlz4", (void 0)))
@@ -235,8 +260,9 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofiler2XxGP"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ou are running in headless mode.
 1634013885257	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofiler2XxGP\\search.json.mozlz4", (void 0)))
@@ -246,8 +272,9 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileFZ6OV7"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ou are running in headless mode.
 1634014022308	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileFZ6OV7\\search.json.mozlz4", (void 0)))
@@ -257,8 +284,9 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileTlwbDi"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ou are running in headless mode.
 1634014050529	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileTlwbDi\\search.json.mozlz4", (void 0)))
@@ -268,8 +296,10 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileWuKffA"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+.
 1634014073174	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileWuKffA\\search.json.mozlz4", (void 0)))
@@ -279,8 +309,9 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilezkCDWw"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ou are running in headless mode.
 1634014123309	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilezkCDWw\\search.json.mozlz4", (void 0)))
@@ -290,8 +321,9 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileFRkq2d"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ou are running in headless mode.
 1634014151610	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileFRkq2d\\search.json.mozlz4", (void 0)))
@@ -301,8 +333,9 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileko6fLg"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ou are running in headless mode.
 1634014242557	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileko6fLg\\search.json.mozlz4", (void 0)))
@@ -312,8 +345,9 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileYJAK9L"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ou are running in headless mode.
 1634014300493	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileYJAK9L\\search.json.mozlz4", (void 0)))
@@ -323,8 +357,9 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofiletSiCra"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+ou are running in headless mode.
 1634014409375	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofiletSiCra\\search.json.mozlz4", (void 0)))
@@ -334,8 +369,10 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile9HHspo"
-*** You are running in headless mode.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+.
 1634014541156	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile9HHspo\\search.json.mozlz4", (void 0)))
@@ -354,8 +391,9 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-1634087794468	geckodriver	INFO	Listening on 127.0.0.1:52642
-1634087797488	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilewvoI49"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilewvoI49"
 *** You are running in headless mode.
 1634087797911	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -366,7 +404,8 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile5b7yUd"
+Exiting due to channel error.
+\\AppData\\Local\\Temp\\rust_mozprofile5b7yUd"
 *** You are running in headless mode.
 1634087836443	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -377,10 +416,9 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile1RPMgJ"
-*** You are running in headless mode.
-1634087868902	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[Child 136056, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+Exiting due to channel error.
+nderCompositorSWGL failed mapping default framebuffer, no dt
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofile1RPMgJ\\search.json.mozlz4", (void 0)))
 1634087870326	Marionette	INFO	Listening on port 49307
 1634087870453	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
@@ -388,7 +426,8 @@ JavaScript error: resource://services-settings/Attachments.jsm, line 391: TypeEr
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileIMzwki"
+Exiting due to channel error.
+\\AppData\\Local\\Temp\\rust_mozprofileIMzwki"
 *** You are running in headless mode.
 1634087917432	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -400,7 +439,8 @@ JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachabl
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileHIb39z"
+Exiting due to channel error.
+\\AppData\\Local\\Temp\\rust_mozprofileHIb39z"
 *** You are running in headless mode.
 1634088100249	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -412,7 +452,8 @@ JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachabl
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileIaqz4s"
+Exiting due to channel error.
+\\AppData\\Local\\Temp\\rust_mozprofileIaqz4s"
 *** You are running in headless mode.
 1634088193688	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -424,7 +465,8 @@ JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachabl
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilekWJPzO"
+Exiting due to channel error.
+\\AppData\\Local\\Temp\\rust_mozprofilekWJPzO"
 *** You are running in headless mode.
 1634088449028	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -448,7 +490,8 @@ JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachabl
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileXMv87p"
+Exiting due to channel error.
+\\AppData\\Local\\Temp\\rust_mozprofileXMv87p"
 *** You are running in headless mode.
 1634088553755	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -460,7 +503,8 @@ JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachabl
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilew6l4fy"
+Exiting due to channel error.
+\\AppData\\Local\\Temp\\rust_mozprofilew6l4fy"
 *** You are running in headless mode.
 1634088599957	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -472,7 +516,8 @@ JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachabl
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileftyQLu"
+Exiting due to channel error.
+\\AppData\\Local\\Temp\\rust_mozprofileftyQLu"
 *** You are running in headless mode.
 1634088665389	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -484,7 +529,8 @@ JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachabl
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileru4SrR"
+Exiting due to channel error.
+\\AppData\\Local\\Temp\\rust_mozprofileru4SrR"
 *** You are running in headless mode.
 1634089062224	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -496,8 +542,9 @@ JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachabl
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-1634089910088	geckodriver	INFO	Listening on 127.0.0.1:65436
-1634089913125	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilef6vZWd"
+Exiting due to channel error.
+Exiting due to channel error.
+34089913125	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-no-remote" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilef6vZWd"
 *** You are running in headless mode.
 1634089913814	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -509,7 +556,8 @@ JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachabl
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofiledFmUkd"
+Exiting due to channel error.
+\\AppData\\Local\\Temp\\rust_mozprofiledFmUkd"
 *** You are running in headless mode.
 1634089933179	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -521,7 +569,9 @@ JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachabl
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilez6Lc09"
+Exiting due to channel error.
+Exiting due to channel error.
+zprofilez6Lc09"
 *** You are running in headless mode.
 1634089985538	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -533,7 +583,8 @@ JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachabl
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileBlSLfs"
+Exiting due to channel error.
+\\AppData\\Local\\Temp\\rust_mozprofileBlSLfs"
 *** You are running in headless mode.
 1634090028361	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -555,7 +606,8 @@ JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachabl
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileUbcZyD"
+Exiting due to channel error.
+\\AppData\\Local\\Temp\\rust_mozprofileUbcZyD"
 *** You are running in headless mode.
 1634090082689	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -567,7 +619,8 @@ JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachabl
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileDBKIdp"
+Exiting due to channel error.
+\\AppData\\Local\\Temp\\rust_mozprofileDBKIdp"
 *** You are running in headless mode.
 1634090106231	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -579,7 +632,8 @@ JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachabl
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileRbIGAq"
+Exiting due to channel error.
+\\AppData\\Local\\Temp\\rust_mozprofileRbIGAq"
 *** You are running in headless mode.
 1634090131736	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -591,7 +645,8 @@ JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachabl
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofileUv1i1f"
+Exiting due to channel error.
+\\AppData\\Local\\Temp\\rust_mozprofileUv1i1f"
 *** You are running in headless mode.
 1634090211655	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -603,7 +658,8 @@ JavaScript warning: https://www.hashtags.org/inc/script.js, line 458: unreachabl
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-e" "-profile" "C:\\Users\\Owen1\\AppData\\Local\\Temp\\rust_mozprofilew637bJ"
+Exiting due to channel error.
+\\AppData\\Local\\Temp\\rust_mozprofilew637bJ"
 *** You are running in headless mode.
 1634090256951	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
