@@ -1,3 +1,4 @@
 pytrends
 requests
 selenium
+nomics-python
