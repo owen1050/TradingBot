@@ -724,3 +724,385 @@ console.warn: ({})
 1634091359240	Marionette	INFO	Stopped listening on port 49545
 JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1634579202685	geckodriver	INFO	Listening on 127.0.0.1:61815
+1634579202819	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "61816" "-foreground" "-no-remote" "-profile" "/var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofilesphhVc"
+*** You are running in headless mode.
+1634579203427	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofilesphhVc/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:61816/devtools/browser/c4ee3cd1-a014-9e4b-a371-5655262eb027
+1634579204774	Marionette	INFO	Listening on port 61826
+1634579204794	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 47046, MediaDecoderStateMachine #1] WARNING: 121256400 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1634579206855	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1634579359916	geckodriver	INFO	Listening on 127.0.0.1:62718
+1634579359937	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62719" "-foreground" "-no-remote" "-profile" "/var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofileIlvASF"
+1634579360371	Marionette	INFO	Marionette enabled
+2021-10-18 13:49:21.322 firefox-bin[47225:405070] Warning: Expected min height of view: (<NSButton: 0x13bff8c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:49:21.323 firefox-bin[47225:405070] Warning: Expected min height of view: (<NSButton: 0x13c3c1400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:49:21.324 firefox-bin[47225:405070] Warning: Expected min height of view: (<NSButton: 0x13c3bec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:49:21.324 firefox-bin[47225:405070] Warning: Expected min height of view: (<NSButton: 0x13c3bc000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:49:21.325 firefox-bin[47225:405070] Warning: Expected min height of view: (<NSButton: 0x13c3bd800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:49:21.326 firefox-bin[47225:405070] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13c3c1800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:49:21.326 firefox-bin[47225:405070] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13c3c3400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofileIlvASF/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:62719/devtools/browser/2442cf67-376e-174d-8404-396c8f562dfc
+1634579362782	Marionette	INFO	Listening on port 62722
+1634579362802	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 47227, MediaDecoderStateMachine #1] WARNING: 11f6bb900 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+console.error: (new TypeError("watcher.browserElement.browsingContext is null", "resource://devtools/server/actors/watcher/target-helpers/frame-helper.js", 175))
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 279: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 279: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 279: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 279: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 279: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:445:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_onRequestHeader@resource://devtools/server/actors/network-monitor/network-observer.js:814:10
+NetworkObserver.prototype.observeActivity<@resource://devtools/server/actors/network-monitor/network-observer.js:699:12
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+Handler function _httpResponseExaminer threw an exception: TypeError: topFrame.browsingContext is null
+Stack: matchRequest@resource://devtools/server/actors/network-monitor/network-observer.js:126:9
+_httpResponseExaminer@resource://devtools/server/actors/network-monitor/network-observer.js:445:10
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 126, column: 9
+console.error: (new TypeError("topFrame.browsingContext is null", "resource://devtools/server/actors/network-monitor/network-observer.js", 126))
+1634579397443	geckodriver	INFO	Listening on 127.0.0.1:63030
+1634579397466	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63031" "-foreground" "-no-remote" "-profile" "/var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofilemigQJg"
+1634579397953	Marionette	INFO	Marionette enabled
+2021-10-18 13:49:58.750 firefox-bin[47248:406198] Warning: Expected min height of view: (<NSButton: 0x12632d000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:49:58.751 firefox-bin[47248:406198] Warning: Expected min height of view: (<NSButton: 0x13357cc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:49:58.751 firefox-bin[47248:406198] Warning: Expected min height of view: (<NSButton: 0x13357d000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:49:58.752 firefox-bin[47248:406198] Warning: Expected min height of view: (<NSButton: 0x13357d400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:49:58.753 firefox-bin[47248:406198] Warning: Expected min height of view: (<NSButton: 0x13357d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:49:58.753 firefox-bin[47248:406198] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13357ec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:49:58.754 firefox-bin[47248:406198] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1337ec800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofilemigQJg/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:63031/devtools/browser/862118c5-bc81-5044-a00e-4611a11fcb25
+1634579400304	Marionette	INFO	Listening on port 63036
+1634579400349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 47250, MediaDecoderStateMachine #1] WARNING: 1279a4100 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Parent 47248, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+1634579442105	Marionette	INFO	Stopped listening on port 62722
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634579442636	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634579443229	Marionette	INFO	Stopped listening on port 63036
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634579443592	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634579448682	geckodriver	INFO	Listening on 127.0.0.1:63388
+1634579448700	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63389" "-foreground" "-no-remote" "-profile" "/var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofilei8gnWJ"
+1634579449201	Marionette	INFO	Marionette enabled
+2021-10-18 13:50:50.133 firefox-bin[47289:407761] Warning: Expected min height of view: (<NSButton: 0x13335ec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:50:50.134 firefox-bin[47289:407761] Warning: Expected min height of view: (<NSButton: 0x1336e6c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:50:50.135 firefox-bin[47289:407761] Warning: Expected min height of view: (<NSButton: 0x1336e7400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:50:50.135 firefox-bin[47289:407761] Warning: Expected min height of view: (<NSButton: 0x1336ecc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:50:50.136 firefox-bin[47289:407761] Warning: Expected min height of view: (<NSButton: 0x1336e7000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:50:50.137 firefox-bin[47289:407761] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1336e8800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:50:50.138 firefox-bin[47289:407761] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1336efc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofilei8gnWJ/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:63389/devtools/browser/d3503276-15b9-6744-bfda-c4915c7bfbdc
+1634579451391	Marionette	INFO	Listening on port 63392
+1634579451473	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 47291, MediaDecoderStateMachine #1] WARNING: 12ca1ee00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 47291, MediaDecoderStateMachine #1] WARNING: 12fe40100 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 47291, MediaDecoderStateMachine #1] WARNING: 129fd7000 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 47291, MediaDecoderStateMachine #1] WARNING: 12ef70c00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1634579637760	geckodriver	INFO	Listening on 127.0.0.1:64563
+1634579637773	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64564" "-foreground" "-no-remote" "-profile" "/var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofile7ujYXr"
+1634579638217	Marionette	INFO	Marionette enabled
+2021-10-18 13:53:59.093 firefox-bin[47403:412142] Warning: Expected min height of view: (<NSButton: 0x13845f400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:53:59.094 firefox-bin[47403:412142] Warning: Expected min height of view: (<NSButton: 0x138460c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:53:59.094 firefox-bin[47403:412142] Warning: Expected min height of view: (<NSButton: 0x13845d000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:53:59.095 firefox-bin[47403:412142] Warning: Expected min height of view: (<NSButton: 0x138462c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:53:59.096 firefox-bin[47403:412142] Warning: Expected min height of view: (<NSButton: 0x138463000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:53:59.096 firefox-bin[47403:412142] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x138756c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:53:59.097 firefox-bin[47403:412142] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13875ec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofile7ujYXr/search.json.mozlz4", (void 0)))
+[Child 47291, MediaDecoderStateMachine #1] WARNING: 12ca7ba00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:64564/devtools/browser/5b54f19d-faa5-794b-bb13-b6535d672ded
+1634579640359	Marionette	INFO	Listening on port 64569
+1634579640468	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 47405, MediaDecoderStateMachine #1] WARNING: 124626d00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 47291, MediaDecoderStateMachine #1] WARNING: 12ca7ac00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 47291, MediaDecoderStateMachine #1] WARNING: 1278c4f00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1634579737764	Marionette	INFO	Stopped listening on port 63392
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+[Parent 47289, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634579737989	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634579738911	Marionette	INFO	Stopped listening on port 64569
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+[Parent 47403, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634579739432	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634579741921	geckodriver	INFO	Listening on 127.0.0.1:65250
+1634579741939	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "65251" "-foreground" "-no-remote" "-profile" "/var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofileH9DObk"
+*** You are running in headless mode.
+1634579742341	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofileH9DObk/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:65251/devtools/browser/66a3da8d-e564-a148-956b-b6a084058f8c
+1634579743538	Marionette	INFO	Listening on port 65254
+1634579743602	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1634579745429	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1634579766057	geckodriver	INFO	Listening on 127.0.0.1:65462
+1634579766067	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "65463" "-foreground" "-no-remote" "-profile" "/var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofilehHjM0m"
+*** You are running in headless mode.
+1634579766428	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofilehHjM0m/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:65463/devtools/browser/902935ec-50c2-6a48-942b-cb0847211a28
+1634579767623	Marionette	INFO	Listening on port 65466
+1634579767708	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1634579769446	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1634579788832	geckodriver	INFO	Listening on 127.0.0.1:49298
+1634579788843	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49299" "-foreground" "-no-remote" "-profile" "/var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofile9ShxwU"
+1634579789293	Marionette	INFO	Marionette enabled
+2021-10-18 13:56:30.076 firefox-bin[47664:416812] Warning: Expected min height of view: (<NSButton: 0x1260dbc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:56:30.077 firefox-bin[47664:416812] Warning: Expected min height of view: (<NSButton: 0x13320a400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:56:30.078 firefox-bin[47664:416812] Warning: Expected min height of view: (<NSButton: 0x13320b800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:56:30.078 firefox-bin[47664:416812] Warning: Expected min height of view: (<NSButton: 0x13320d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:56:30.079 firefox-bin[47664:416812] Warning: Expected min height of view: (<NSButton: 0x1335bf800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:56:30.079 firefox-bin[47664:416812] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1335c1c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:56:30.080 firefox-bin[47664:416812] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1335c8400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofile9ShxwU/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:49299/devtools/browser/aebe3267-3004-d84d-8f8a-eb242b67b8f7
+1634579791374	Marionette	INFO	Listening on port 49302
+1634579791410	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 47669, MediaDecoderStateMachine #1] WARNING: 12419e900 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.programcreek.com/python/example/100025/selenium.webdriver.ChromeOptions, line 1: ReferenceError: prettyPrint is not defined
+1634579987938	geckodriver	INFO	Listening on 127.0.0.1:50595
+1634579987950	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50596" "-foreground" "-no-remote" "-profile" "/var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofileZQfh2J"
+1634579988390	Marionette	INFO	Marionette enabled
+2021-10-18 13:59:49.128 firefox-bin[47798:420468] Warning: Expected min height of view: (<NSButton: 0x12d6d6c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:59:49.129 firefox-bin[47798:420468] Warning: Expected min height of view: (<NSButton: 0x13a7fcc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:59:49.130 firefox-bin[47798:420468] Warning: Expected min height of view: (<NSButton: 0x13a7fd800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:59:49.130 firefox-bin[47798:420468] Warning: Expected min height of view: (<NSButton: 0x12d6d0400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:59:49.131 firefox-bin[47798:420468] Warning: Expected min height of view: (<NSButton: 0x13a7fe800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:59:49.131 firefox-bin[47798:420468] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13abf3c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 13:59:49.132 firefox-bin[47798:420468] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13abf5800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofileZQfh2J/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:50596/devtools/browser/69edb2a3-8349-1641-9e52-e2bb83a31b65
+1634579990401	Marionette	INFO	Listening on port 50601
+1634579990505	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 47800, MediaDecoderStateMachine #1] WARNING: 129bb5100 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+1634579999533	geckodriver	INFO	Listening on 127.0.0.1:50781
+1634579999544	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "50782" "-foreground" "-no-remote" "-profile" "/var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofileZfEhoM"
+*** You are running in headless mode.
+1634579999935	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofileZfEhoM/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:50782/devtools/browser/731a1c68-1a67-8f4c-a0e5-04a9f8c375c4
+1634580001328	Marionette	INFO	Listening on port 50785
+1634580001402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1634580003263	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 47664, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+1634581228628	geckodriver	INFO	Listening on 127.0.0.1:57286
+1634581229151	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "57287" "-foreground" "-no-remote" "-profile" "/var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofileqG0jfz"
+*** You are running in headless mode.
+1634581229582	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofileqG0jfz/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:57287/devtools/browser/187e67d2-94b1-7840-9863-ee59bf0b8263
+1634581230861	Marionette	INFO	Listening on port 57298
+1634581230924	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 49182, MediaDecoderStateMachine #1] WARNING: 11e4cf400 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1634581237629	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1634581333118	geckodriver	INFO	Listening on 127.0.0.1:57918
+1634581333129	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "57919" "-foreground" "-no-remote" "-profile" "/var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofileDG8Vhq"
+*** You are running in headless mode.
+1634581333503	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofileDG8Vhq/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:57919/devtools/browser/7ad886b6-aed0-2649-b6c1-700ea58b7c3a
+1634581334757	Marionette	INFO	Listening on port 57924
+1634581334807	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 49253, MediaDecoderStateMachine #1] WARNING: 123d60200 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1634581336878	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1634581442356	geckodriver	INFO	Listening on 127.0.0.1:58540
+1634581442369	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "58541" "-foreground" "-no-remote" "-profile" "/var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofileQinzle"
+*** You are running in headless mode.
+1634581442758	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofileQinzle/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:58541/devtools/browser/f65f6667-e60c-8c4c-b5ac-e16c5ac3d113
+1634581444008	Marionette	INFO	Listening on port 58544
+1634581444036	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 49313, MediaDecoderStateMachine #1] WARNING: 1237cab00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1634581445903	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1634581457726	geckodriver	INFO	Listening on 127.0.0.1:58706
+1634581457738	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "58707" "-foreground" "-no-remote" "-profile" "/var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofilej5dkj8"
+*** You are running in headless mode.
+1634581458124	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofilej5dkj8/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:58707/devtools/browser/60f56522-0f46-5a43-86ac-bf1b0e72d985
+1634581459379	Marionette	INFO	Listening on port 58712
+1634581459417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 49345, MediaDecoderStateMachine #1] WARNING: 1254bfd00 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1634581461198	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1634581473411	geckodriver	INFO	Listening on 127.0.0.1:58879
+1634581473427	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58880" "-foreground" "-no-remote" "-profile" "/var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofileBYoJIM"
+1634581473919	Marionette	INFO	Marionette enabled
+2021-10-18 14:24:34.682 firefox-bin[49364:445701] Warning: Expected min height of view: (<NSButton: 0x12601d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 14:24:34.682 firefox-bin[49364:445701] Warning: Expected min height of view: (<NSButton: 0x13300d400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 14:24:34.683 firefox-bin[49364:445701] Warning: Expected min height of view: (<NSButton: 0x13300d000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 14:24:34.684 firefox-bin[49364:445701] Warning: Expected min height of view: (<NSButton: 0x13300d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 14:24:34.684 firefox-bin[49364:445701] Warning: Expected min height of view: (<NSButton: 0x13300dc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 14:24:34.685 firefox-bin[49364:445701] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1333bf000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 14:24:34.685 firefox-bin[49364:445701] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1333c7800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/b8/4fxxzxpx4mn8m6x1b28k38f80000gs/T/rust_mozprofileBYoJIM/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:58880/devtools/browser/4de88d83-53c3-4f46-b37f-64d14eae163c
+1634581476091	Marionette	INFO	Listening on port 58885
+1634581476134	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 49367, MediaDecoderStateMachine #1] WARNING: 12aba6600 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+2021-10-18 15:53:42.647 firefox-bin[47664:416812] Warning: Expected min height of view: (<NSButton: 0x10a762400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 15:53:42.649 firefox-bin[47664:416812] Warning: Expected min height of view: (<NSButton: 0x126f82c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 15:53:42.649 firefox-bin[47664:416812] Warning: Expected min height of view: (<NSButton: 0x126f85000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 15:53:42.650 firefox-bin[47664:416812] Warning: Expected min height of view: (<NSButton: 0x126f85c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 15:53:42.651 firefox-bin[47664:416812] Warning: Expected min height of view: (<NSButton: 0x13364f400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 15:53:42.651 firefox-bin[47664:416812] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13365d800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-10-18 15:53:42.652 firefox-bin[47664:416812] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x126c73000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+1634586824080	Marionette	INFO	Stopped listening on port 49302
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634586824324	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634586826438	Marionette	INFO	Stopped listening on port 50601
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634586826628	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
+1634586827714	Marionette	INFO	Stopped listening on port 58885
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1634586827898	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+stop()@CDP.jsm:104
+close()@RemoteAgent.jsm:138
