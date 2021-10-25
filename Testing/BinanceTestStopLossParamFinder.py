@@ -1,5 +1,4 @@
 from binance import Client, ThreadedWebsocketManager, ThreadedDepthCacheManager
-import matplotlib.pyplot as plt
 from scipy.signal import savgol_filter
 import numpy as np
 import pickle
@@ -7,12 +6,12 @@ import pickle
 
 takeProfit = 1.001
 stopLoss = 0.999
-stLb = 5
-ltLb = 10
-lltLb = 300
-lltDdataSmoothingLookback = 91
+stLb = 25
+ltLb = 75
+lltLb = 200
+lltDdataSmoothingLookback = 101
 lltDdataSmoothingN = 2
-secDerivMinBuy = 0.02
+secDerivMinBuy = 0.01
 binanceFee = 0
 
 
@@ -38,7 +37,7 @@ for i in prices:
 try:
     klines = pickle.load(open("klines.save", "rb"))
 except:
-    klines = client.get_historical_klines("BTCUSDT", Client.KLINE_INTERVAL_1MINUTE, "10 days ago UTC")
+    klines = client.get_historical_klines("BTCUSDT", Client.KLINE_INTERVAL_15MINUTE, "10 days ago UTC")
     pickle.dump(klines, open("klines.save", "wb"))
 
 
@@ -97,7 +96,6 @@ bp = 0
 sp = 0
 total = 0
 buys = 0
-fig, ax = plt.subplots()
 n  = 0
 reset = False
 gb = 0
@@ -113,23 +111,17 @@ for d in data:
         #print("Sold at:" + str(sp))
         #print("made:" + str(sp-bp) + ":"+str(total))
         if( (sp / bp) > 1):
-            ax.plot(n, d[0], 'go')
             gb = gb + 1
         else:
-            ax.plot(n, d[0], 'ro')
             bb = bb + 1
         reset = False
     elif(d[1] > d[2] and order == False and reset == True and lltDatad2[n] > secDerivMinBuy):
         order = True
         buys = buys + 1
         bp = d[0] * (1 + binanceFee)
-        #print("bought at:" + str(bp))
-        ax.plot(n, d[0], 'bo')
     n = n + 1
 
 
 print(total, total/buys, buys,gb, bb, gb/buys)
 
-ax.plot(data)
-plt.show()
 

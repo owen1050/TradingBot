@@ -5,3 +5,4 @@ nomics-python
 python-binance
 matplotlib
 scipy
+pickle-mixin
