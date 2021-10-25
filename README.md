@@ -11,3 +11,7 @@ Initial research:
 - binance api- https://github.com/binance/binance-spot-api-docs/blob/master/rest-api.md#general-api-information
 - python binance : https://python-binance.readthedocs.io/en/latest/ 
 
+Current plan:
+- once an hour refresh cryptos, look for volatile ones
+- run lookback on volatile ones to find best paramaters
+- trade on that until ????

@@ -4,3 +4,4 @@ selenium
 nomics-python
 python-binance
 matplotlib
+scipy
