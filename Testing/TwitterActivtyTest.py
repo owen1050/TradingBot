@@ -14,7 +14,7 @@ opts.headless = True
 
 driver = webdriver.Firefox(executable_path=driverPath, options=opts)
 
-searchTerm = "twitter"
+searchTerm = "BTCUSDT"
 url = "https://www.hashtags.org/analytics/"+searchTerm+"/"
 
 print("Loading url:" + url)
